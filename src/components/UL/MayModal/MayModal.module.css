@@ -1,0 +1,37 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myModalContent {
+    background: white;
+    border-radius: 16px;
+    min-width: 250px;
+    margin: 50px;
+}
+
+.buttomCloseModal {
+    background: var(--color-button);
+    color: white;
+    border: 1px solid var(--color-button);
+    border-radius: 50%;
+    font-size: 16;
+    width: 20px;
+    height: 20px;
+    margin-left: 96%;
+}
+.buttomCloseModal:hover{
+    cursor: pointer;
+}
+
