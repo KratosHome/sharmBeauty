@@ -9,6 +9,7 @@ const App: React.FC = () => {
     <div className="App">
       <Header />
       <Footer />
+      <div>bla</div>
     </div>
   );
 };
