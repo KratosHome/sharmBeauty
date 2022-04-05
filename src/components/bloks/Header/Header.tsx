@@ -4,6 +4,7 @@ import logo from "../../../img/icons/logo.png";
 import { MayModal } from "../../UL/MayModal/MayModal";
 import { RequestСall } from "../RequestСall/RequestСall";
 import "animate.css";
+import { Link } from "react-router-dom";
 
 export const Header: React.FC = () => {
   const [modalOpen, setModalOpen] = React.useState<boolean>(false);
@@ -32,7 +33,7 @@ export const Header: React.FC = () => {
         </div>
         <div className="row">
           <div className="navTopList">
-            <a href="/about-ass">О нас</a>
+            <Link to="/about">О нас</Link>
             <a href="/delivery-and-payment">Оплата та доставка</a>
             <a href="/blog">Статті</a>
             <a href="/discount-program">Дисконтна програма</a>
