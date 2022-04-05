@@ -26,17 +26,16 @@ export const MayModal: React.FC<TodoListProps> = ({
         in={visible}
         timeout={500}
         classNames={{
-          enterActive: "animate__animated animate__flipInX",
           exitActive: "animate__animated animate__flipOutX",
         }}
         mountOnEnter
         unmountOnExit
       >
         <div
-          className={visible ? "myModal active" : "myModal"}
+          className={visible ? "myModal active " : "myModal"}
           onClick={() => setVisible(false)}
         >
-          <div>
+          <div className="animate__animated animate__flipInX">
             <div
               className={md.myModalContent}
               onClick={(e) => e.stopPropagation()}
