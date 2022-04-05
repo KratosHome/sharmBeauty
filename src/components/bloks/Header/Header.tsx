@@ -36,7 +36,7 @@ export const Header: React.FC = () => {
             <a href="/delivery-and-payment">Оплата та доставка</a>
             <a href="/blog">Статті</a>
             <a href="/discount-program">Дисконтна програма</a>
-            <a href="/faq">FAQ</a>
+            <a href="/faq">FfAQ</a>
           </div>
           <a href="/">
             <img src={logo} alt="Logo" />
