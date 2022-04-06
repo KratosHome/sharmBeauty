@@ -6,8 +6,3 @@ export function animeteOpen() {
     }
 }
 
-export function animeteClose() {
-    return {
-        type: AnimateActionsTypes.CLOSE,
-    }
-}

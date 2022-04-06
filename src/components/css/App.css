@@ -20,6 +20,24 @@ font-family: 'Raleway', sans-serif;
     --color-button: rgba(191, 21, 75, 1);
     --color-button-hover: rgb(236, 19, 88);
 }
+
+html[data-theme="light"]{
+    --link-color: black;
+    --background-color: white;
+    --text-color: black;
+    --color-hover-link: rgba(191, 21, 75, 1);
+    --border-color: #b8b8b8
+}
+
+html[data-theme="dark"]{
+    --link-color: white;
+    --background-color: black;
+    --text-color: white;
+    --color-hover-link: rgba(191, 21, 75, 1);
+    --border-color: #b8b8b8
+}
+
+
 *,
 *::after,
 *::before {
@@ -28,4 +46,10 @@ font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
     font-size: calc((120vw - 470px) / (1980 - 470) * (16 - 10) + 11px);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
 }

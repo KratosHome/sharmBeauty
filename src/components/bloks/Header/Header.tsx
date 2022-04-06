@@ -5,25 +5,28 @@ import { MayModal } from "../../UL/MayModal/MayModal";
 import { RequestСall } from "../RequestСall/RequestСall";
 import "animate.css";
 import { Link } from "react-router-dom";
+import { Thema } from "../../UL/Thema/Thema";
+import { useTypeSelector } from "../../../hooks/useTypeSelector";
+import { useTheme } from '../../../hooks/useTheme';
 
 export const Header: React.FC = () => {
+  const state = useTypeSelector((state) => state.animateReducer);
+
   const [modalOpen, setModalOpen] = React.useState<boolean>(false);
 
 
 
   return (
-    <header className="header">
+    <header className={state.animate ? "header_lite" : "header"}>
       <div className="containderHead">
         <div>
           <a className="phone" title="телефонуй" href="tel:0(800)505113">
             {" "}
             0 (800) 50 51 13
           </a>
-
           <div onClick={() => setModalOpen(!modalOpen)} className="orderСall">
             Замовити дзвінок
           </div>
-
           <MayModal visible={modalOpen} setVisible={setModalOpen}>
             <RequestСall setModalOpen={setModalOpen} />
           </MayModal>
@@ -43,17 +46,20 @@ export const Header: React.FC = () => {
             <img src={logo} alt="Logo" />
           </a>
           <div className="navTopList">
-            <div>Менюс</div>
-            <div>Менюс</div>
-            <div>Менюс</div>
-            <div>Менюс</div>
-            <div>Менюс</div>
-            <div>Менюс</div>
-            <div>Менюс</div>
+            <a>Парфумерія</a>
+            <a>Макіяж</a>
+            <a>Волосся</a>
+            <a>Обличчя</a>
+            <a>Тіло і ванна</a>
+            <a>Чоловікам</a>
+            <a>Аксесуари </a>
+            <a>Подарунки</a>
+            <a>Бренди</a>
+            <a>Акції</a>
           </div>
         </div>
         <div className="rigt-block">
-          <div className="lang-list">thema</div>
+          <Thema />
           <div className="lang-list">Lenguage</div>
           <div>office</div>
           <div>search</div>

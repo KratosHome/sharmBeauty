@@ -5,7 +5,7 @@ import { animateReducer } from './animateReduser';
 
 
 export const rootReducer = combineReducers({
-    animate: animateReducer
+   animateReducer
 })
 
 export type rootState = ReturnType<typeof rootReducer> 

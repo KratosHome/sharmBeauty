@@ -14,9 +14,7 @@ export const animateReducer = (
 ): AnimateState => {
   switch (action.type) {
     case AnimateActionsTypes.OPEN:
-      return { ...state, animate: (state.animate = true) };
-    case AnimateActionsTypes.CLOSE:
-      return { ...state, animate: (state.animate = false) };
+      return { ...state, animate: (!state.animate)};
     default:
       return state;
   }
