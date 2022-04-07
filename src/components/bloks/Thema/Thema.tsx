@@ -38,12 +38,12 @@ export const Thema: React.FC<{}> = () => {
           appear  
         >
           {theme === "dark" ? (
-            <img onClick={() => handalClick()} src={sun} alt="thema sun" />
+            <img onClick={() => handalClick()} src={sun} alt="thema light" />
           ) : (
             <img
               onClick={() => handalClickLight()}
               src={moon}
-              alt="thema sun"
+              alt="thema dark"
             />
           )}
         </CSSTransition>

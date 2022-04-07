@@ -1,0 +1,41 @@
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu > ul > li{
+    height: 30px;
+    display: block;
+}
+.menu li:hover .sub_menu{
+    transition: all 500ms;
+    transform:  translate(0px,0);
+}
+
+.sub_menu a {
+    display: block;
+    margin: 5px 29px 5px 0;
+}
+.sub_menu {
+    margin-top: 5px;
+    transform:  translate(100%,0);
+    transition: all 500ms;
+    position: absolute;
+    background-color: white;
+    padding-top: 10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    color: black;
+    border: 1px solid rgba(20, 110, 205, 0.5);
+}
+.sub_menu a{
+    text-align: left;
+}
+.sub_menu a {
+    color: var(--link-fon-color-menu);
+}
+
+.sub_menu a:hover {
+    color: var(--hover-link-color-menu);
+    transition: 0.5s;
+}

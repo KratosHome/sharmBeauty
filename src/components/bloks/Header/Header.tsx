@@ -5,9 +5,15 @@ import { MayModal } from "../../UL/MayModal/MayModal";
 import { RequestСall } from "../RequestСall/RequestСall";
 import "animate.css";
 import { Link } from "react-router-dom";
-import { Thema } from "../../UL/Thema/Thema";
+import { Thema } from "../Thema/Thema";
 import { useTypeSelector } from "../../../hooks/useTypeSelector";
 import { useTheme } from "../../../hooks/useTheme";
+import { UserAccount } from "../UserAccount/UserAccount";
+import { Likes } from "../Likes/Likes";
+import { Search } from "../Search/Search";
+import { Comparison } from "../Comparison/Comparison";
+import { Basket } from "../Basket/Basket";
+import { Menu } from "./Munu/Menu";
 
 export const Header: React.FC = () => {
   const [modalOpen, setModalOpen] = React.useState<boolean>(false);
@@ -42,27 +48,18 @@ export const Header: React.FC = () => {
           <a href="/">
             <img src={logo} alt="Logo" />
           </a>
-          <div className="navTopList">
-            <a>Парфумерія</a>
-            <a>Макіяж</a>
-            <a>Волосся</a>
-            <a>Обличчя</a>
-            <a>Тіло і ванна</a>
-            <a>Чоловікам</a>
-            <a>Аксесуари </a>
-            <a>Подарунки</a>
-            <a>Бренди</a>
-            <a>Акції</a>
+          <div className="navTopList2">
+            <Menu />
           </div>
         </div>
         <div className="rigt-block">
           <Thema />
-          <div className="lang-list">Lenguage</div>
-          <div>office</div>
-          <div>search</div>
-          <div>likes</div>
-          <div>product comparison</div>
-          <div>basket</div>
+          <UserAccount />
+          <Likes />
+          <Search />
+          <Comparison />
+          <Basket />
+          <div>Більше 100 000 товарів</div>
         </div>
       </div>
     </header>

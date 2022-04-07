@@ -27,11 +27,13 @@ html[data-theme="light"] {
 
     --text-fon-color: black;
     --link-fon-color: black;
+    --link-fon-color-menu: black;
 
     --background-color: white;
     --border-color: #b8b8b8;
 
     --hover-link-color: rgb(250, 1, 1);
+    --hover-link-color-menu: rgb(250, 1, 1);
 }
 
 html[data-theme="dark"] {
@@ -40,11 +42,13 @@ html[data-theme="dark"] {
 
     --text-fon-color: white;
     --link-fon-color: white;
+    --link-fon-color-menu: black;
 
     --background-color: black;
     --border-color: #b8b8b8;
 
     --hover-link-color: rgba(191, 21, 75, 1);
+    --hover-link-color-menu: rgb(250, 1, 1);
 }
 
 *,
@@ -56,6 +60,9 @@ html[data-theme="dark"] {
     font-family: "Comfortaa", cursive;
     font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 9px);
 }
+h1{
+    font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 25px); 
+}
 @media (max-width: 928px) {
     *,
     *::after,
@@ -65,4 +72,12 @@ html[data-theme="dark"] {
 }
 a {
     text-decoration: none;
+}
+a:hover{
+    color: var(--hover-link-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
+li{
+    list-style: none;
 }

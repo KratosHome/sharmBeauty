@@ -29,16 +29,19 @@ header {
     color: var(--color-hover-link);
     transition: 0.5s;
 }
-.navTopList {
+.navTopList,
+.navTopList2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.navTopList a {
+.navTopList a,
+.navTopList2 a {
     margin-left: 13px;
     margin-bottom: 5px;
 }
-.navTopList a:hover {
+.navTopList a:hover,
+.navTopList2 a:hover {
     color: var(--hover-link-color);
     transition: 0.5s;
     cursor: pointer;
@@ -66,9 +69,21 @@ header {
     border-color: var(--hover-link-colort);
     transition: 0.5s;
 }
-
+.rigt-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rigt-block div{
+    margin: 5px;
+}
 @media (max-width: 928px) {
     .containderHead {
         grid-template-columns: 1fr;
+    }
+    .time_mork{
+        display: none;
+    }
+    .navTopList{
+       display: none;
     }
 }
