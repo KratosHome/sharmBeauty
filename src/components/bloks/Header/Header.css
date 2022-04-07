@@ -1,13 +1,17 @@
 header {
     background-color: var(--background-color);
-    color: var(--text-color: );
+    color: var(--text-color);
 }
 .containderHead {
+    color: var(--text-fon-color);
     margin: 0 auto;
     width: calc(100% - 30px);
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 6fr 1fr;
     padding: 10px 0 0 0;
+}
+.containderHead a {
+    color: var(--link-fon-color);
 }
 .row {
     margin: 0 auto;
@@ -28,8 +32,17 @@ header {
 .navTopList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
+.navTopList a {
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+.navTopList a:hover {
+    color: var(--hover-link-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
 .orderСall {
     text-align: center;
     display: block;
@@ -40,14 +53,21 @@ header {
     padding: 5px 10px 5px 10px;
     white-space: nowrap;
 }
+.time_mork {
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.time_mork div {
+    font-size: 0.8em;
+}
 .orderСall:hover {
     cursor: pointer;
+    color: var(--hover-link-color);
+    border-color: var(--hover-link-colort);
+    transition: 0.5s;
 }
 
-@media (max-width: 992px) {
-}
-
-@media (max-width: 768px) {
+@media (max-width: 928px) {
     .containderHead {
         grid-template-columns: 1fr;
     }

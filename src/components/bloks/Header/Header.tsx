@@ -7,17 +7,12 @@ import "animate.css";
 import { Link } from "react-router-dom";
 import { Thema } from "../../UL/Thema/Thema";
 import { useTypeSelector } from "../../../hooks/useTypeSelector";
-import { useTheme } from '../../../hooks/useTheme';
+import { useTheme } from "../../../hooks/useTheme";
 
 export const Header: React.FC = () => {
-  const state = useTypeSelector((state) => state.animateReducer);
-
   const [modalOpen, setModalOpen] = React.useState<boolean>(false);
-
-
-
   return (
-    <header className={state.animate ? "header_lite" : "header"}>
+    <header>
       <div className="containderHead">
         <div>
           <a className="phone" title="телефонуй" href="tel:0(800)505113">
@@ -30,9 +25,11 @@ export const Header: React.FC = () => {
           <MayModal visible={modalOpen} setVisible={setModalOpen}>
             <RequestСall setModalOpen={setModalOpen} />
           </MayModal>
-          <div className="shedule">ГРАФІК РОБОТИ</div>
-          <div>з 8:00 до 20:00</div>
-          <div>БЕЗ ВИХІДНИХ</div>
+          <div className="time_mork">
+            <div className="shedule">ГРАФІК РОБОТИ</div>
+            <div>з 8:00 до 20:00</div>
+            <div>БЕЗ ВИХІДНИХ</div>
+          </div>
         </div>
         <div className="row">
           <div className="navTopList">

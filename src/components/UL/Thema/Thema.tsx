@@ -10,6 +10,9 @@ import { CSSTransition } from "react-transition-group";
 import { useTheme } from "../../../hooks/useTheme";
 
 export const Thema: React.FC<{}> = () => {
+  const { theme, setTheme } = useTheme();
+  const [bulem, setBulem] = React.useState(false);
+
   const handalClick = () => {
     setTheme("light");
   };
@@ -17,12 +20,23 @@ export const Thema: React.FC<{}> = () => {
     setTheme("dark");
   };
 
-  const { theme, setTheme } = useTheme();
+  React.useEffect(() => {
+    if (theme === "light") {
+      setBulem(true);
+    } else {
+      setBulem(false);
+    }
+  }, [theme]);
 
   return (
     <>
-      <div className="thema ">
-        <CSSTransition timeout={200} classNames="my-node">
+      <div className="thema">
+        <CSSTransition
+          in={bulem}
+          timeout={200}
+          classNames="my-node"   
+          appear  
+        >
           {theme === "dark" ? (
             <img onClick={() => handalClick()} src={sun} alt="thema sun" />
           ) : (
