@@ -31,6 +31,7 @@ html[data-theme="light"] {
 
     --background-color: white;
     --border-color: #b8b8b8;
+    --background-color-menu: black;
 
     --hover-link-color: rgb(250, 1, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
@@ -46,6 +47,7 @@ html[data-theme="dark"] {
 
     --background-color: black;
     --border-color: #b8b8b8;
+    --background-color-menu: white;
 
     --hover-link-color: rgba(191, 21, 75, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
@@ -67,7 +69,7 @@ h1{
     *,
     *::after,
     *::before {
-        font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 12px);
+        font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 15px);
     }
 }
 a {
