@@ -1,6 +1,5 @@
 .UserAccountLogin {
-    padding-right: 10px;
-    padding-left: 10px;
+    margin: 30px 15px 30px 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -17,6 +16,7 @@
     padding: 8px 20px;
 }
 .user_form {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
