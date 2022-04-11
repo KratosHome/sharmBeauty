@@ -1,4 +1,4 @@
-.menu ul {
+.menu > ul {
     display: flex;
     justify-content: center;
 }
@@ -10,16 +10,18 @@
     transition: all 500ms;
     transform: rotateY(0deg);
 }
-
+.sub_menu li {
+    position: relative;
+}
 .sub_menu a {
     display: block;
-    margin: 5px 29px 5px 0;
+    margin: 5px 29px 5px 15px;
 }
 .sub_menu {
+    position: absolute;
     transform: rotateY(90deg);
     margin-top: 5px;
     transition: all 500ms;
-    position: absolute;
     background-color: white;
     padding-top: 10px;
     width: 100%;
@@ -28,10 +30,12 @@
     color: black;
     border: 1px solid rgba(20, 110, 205, 0.5);
 }
-.sub_menu a {
-    text-align: left;
+.sub_menu  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 }
 .sub_menu a {
+    text-align: left;
     color: var(--link-fon-color-menu);
 }
 
