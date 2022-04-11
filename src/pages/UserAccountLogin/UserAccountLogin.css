@@ -1,6 +1,36 @@
-.UserAccountLogin{
-
-}
 .UserAccountLogin {
-    
+    padding-right: 10px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.inputUser {
+    width: 250px;
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #b8b8b8;
+    border-radius: 0;
+    font-family: "HelveticaNeueCyr-Roman", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1;
+    padding: 8px 20px;
+}
+.user_form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.UserAccountLogin label {
+    margin-top: 20px;
+    display: block;
+    width: 250px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.UserAccountLogin label::after {
+    content: "*";
+    color: #e02b27;
+    font-size: 1.2rem;
+    margin: 0 0 0 5px;
 }

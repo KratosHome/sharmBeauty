@@ -173,37 +173,37 @@
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 4,
                 "name": "Обличчя",
                 "path": "/Face",
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 5,
                 "name": "Щітки",
                 "path": "/brushes",
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 6,
                 "name": "Макіяж",
                 "path": "/makeup",
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 7,
                 "name": "Нігті",
                 "path": "/nails",
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 8,
                 "name": "Палетки",
                 "path": "/palettes",
                 "block": 5
             },
             {
-                "id": 3,
+                "id": 9,
                 "name": "Палетки",
                 "path": "/palettes",
                 "block": 5
