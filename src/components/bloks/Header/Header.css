@@ -78,7 +78,7 @@ header {
 }
 @media (max-width: 928px) {
     .containderHead {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
     }
     .time_mork{
         display: none;
@@ -86,4 +86,18 @@ header {
     .navTopList{
        display: none;
     }
+    .logo{
+        margin-top: 10px;
+    }
 }
+@media (max-width: 534px) {
+    .containderHead {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rigt-block{
+       margin-left: 80px;
+    }
+}
+

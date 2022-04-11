@@ -153,7 +153,62 @@
         "id": 2,
         "name": "Макіяж",
         "path": "/makiyazh",
-        "CubMenu": []
+        "CubMenu": [
+            {
+                "id": 1,
+                "name": "Очі",
+                "path": "/eyes",
+                "block": 5
+            },
+            {
+                "id": 2,
+                "name": "Брові",
+                "path": "/brows",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Губи",
+                "path": "/lips",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Обличчя",
+                "path": "/Face",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Щітки",
+                "path": "/brushes",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Макіяж",
+                "path": "/makeup",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Нігті",
+                "path": "/nails",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Палетки",
+                "path": "/palettes",
+                "block": 5
+            },
+            {
+                "id": 3,
+                "name": "Палетки",
+                "path": "/palettes",
+                "block": 5
+            }
+        ]
     },
     {
         "id": 3,

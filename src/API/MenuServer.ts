@@ -5,7 +5,7 @@ interface Menu{
 }
 export default class MenuServer{
     static async MenPage(){
-        const response =  await axios.get("https://run.mocky.io/v3/53d37ea0-3e11-45ef-930d-bf2a4132bec2")
+        const response =  await axios.get("https://run.mocky.io/v3/a2540c5f-fe5b-4a7f-adbe-76b701e3de19")
         return response.data
     }
 }

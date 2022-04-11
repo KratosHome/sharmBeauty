@@ -46,7 +46,7 @@ export const Header: React.FC = () => {
             <a href="/faq">FAQ</a>
           </div>
           <a href="/">
-            <img src={logo} alt="Logo" />
+            <img className="logo" src={logo} alt="Logo" />
           </a>
           <div className="navTopList2">
             <Menu />
