@@ -1,13 +1,13 @@
 import * as React from "react";
 import { useForm, Resolver, SubmitHandler } from "react-hook-form";
+import { Link } from "react-router-dom";
 import { MayButton } from "../../components/UL/MayButton/MayButton";
-import "./UserAccountLogin.css";
+import { LoginContext } from "../../context/index";
 
 interface FormValues {
   email: string;
   pass: string;
-};
-
+}
 export const UserAccountLogin: React.SFC<{}> = () => {
   const {
     register,
@@ -19,7 +19,15 @@ export const UserAccountLogin: React.SFC<{}> = () => {
   const onSubmit = handleSubmit((data) => {
     console.log(data);
     reset();
+    loginIn();
   });
+
+  const { isAuth, setIsAuth } = React.useContext(LoginContext);
+
+  const loginIn = () => {
+    setIsAuth(true);
+    localStorage.setItem("auth", "true");
+  };
 
   return (
     <div className="UserAccountLogin">
@@ -45,16 +53,13 @@ export const UserAccountLogin: React.SFC<{}> = () => {
           {...register("pass", {
             required: "Ведіть пароль",
           })}
-          autoComplete="on"
-          name="password"
           id="password"
           className="inputUser"
           type="password"
         />
         {errors?.pass && <div>{errors.pass.message}</div>}
         <div>Запам'ятай мене</div>
-       
-        <MayButton>Увійти</MayButton>
+          <MayButton>Увійти</MayButton>
         <a>Забули пароль?</a>
       </form>
       <div>

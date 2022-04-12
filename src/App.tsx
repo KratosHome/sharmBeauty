@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./components/css/App.css";
 import { Footer } from "./components/bloks/Footer/Footer";
 import { Header } from "./components/bloks/Header/Header";
@@ -9,7 +9,13 @@ import { Provider } from "react-redux";
 
 const App: React.FC = () => {
   const [isAuth, setIsAuth] = useState(false);
-
+  useEffect(() => {
+    if (localStorage.getItem("auth")) {
+      setIsAuth(true);
+    } else {
+      setIsAuth(false);
+    }
+  }, []);
   return (
     <LoginContext.Provider value={{ isAuth, setIsAuth }}>
       <div className="App">

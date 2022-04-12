@@ -1,9 +1,13 @@
 import * as React from "react";
 import "./MayButton.css";
 
-export const MayButton: React.SFC<{}> = ({ children }) => {
+type Props = {
+  onClick?: () => void, 
+}
+
+export const MayButton: React.SFC<Props> = ({ children, onClick }) => {
   return (
-    <button className="may_btn">
+    <button className="may_btn" onClick={onClick}>
       <span> {children}</span>
     </button>
   );
