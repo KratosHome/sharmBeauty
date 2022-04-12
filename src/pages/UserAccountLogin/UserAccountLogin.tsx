@@ -1,9 +1,9 @@
 import * as React from "react";
-import { useForm, Resolver } from "react-hook-form";
+import { useForm, Resolver, SubmitHandler } from "react-hook-form";
 import { MayButton } from "../../components/UL/MayButton/MayButton";
 import "./UserAccountLogin.css";
 
-type FormValues = {
+interface FormValues {
   email: string;
   pass: string;
 };
@@ -40,18 +40,20 @@ export const UserAccountLogin: React.SFC<{}> = () => {
           type="text"
         />
         {errors?.email && <div>{errors.email.message}</div>}
-        <label htmlFor="pass">Пароль</label>
+        <label htmlFor="password">Пароль</label>
         <input
           {...register("pass", {
             required: "Ведіть пароль",
           })}
-          id="pass"
+          autoComplete="on"
+          name="password"
+          id="password"
           className="inputUser"
-          type="pass"
+          type="password"
         />
         {errors?.pass && <div>{errors.pass.message}</div>}
         <div>Запам'ятай мене</div>
-        <input id="forgetMe" type="checkbox" />
+       
         <MayButton>Увійти</MayButton>
         <a>Забули пароль?</a>
       </form>

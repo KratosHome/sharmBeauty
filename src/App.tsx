@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./components/css/App.css";
 import { Footer } from "./components/bloks/Footer/Footer";
 import { Header } from "./components/bloks/Header/Header";
 import { AppRouter } from "./router/AppRouter";
 import { BrowserRouter } from "react-router-dom";
+import { LoginContext } from "./context";
+import { Provider } from "react-redux";
 
 const App: React.FC = () => {
+  const [isAuth, setIsAuth] = useState(false);
+
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Header />
-        <AppRouter />
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <LoginContext.Provider value={{ isAuth, setIsAuth }}>
+      <div className="App">
+        <BrowserRouter>
+          <Header />
+          <AppRouter />
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </LoginContext.Provider>
   );
 };
 
