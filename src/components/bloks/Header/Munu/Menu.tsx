@@ -66,7 +66,7 @@ export const Menu: React.SFC<{}> = () => {
                 {menu.CubMenu.length > 1 ? (
                   <ul className="sub_menu">
                     {menu.CubMenu.map((cub) => (
-                      <li key={cub.id}>
+                      <li key={cub.id}> 
                         <a href={cub.path}>{cub.name}</a>
                       </li>
                     ))}

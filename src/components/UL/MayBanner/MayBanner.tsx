@@ -53,8 +53,7 @@ export const MayBanner: React.SFC<{}> = () => {
                   <MayButton>Перейти</MayButton>
                 </Link>
               </div>
-            ) : undefined}
-
+            ) : null}
             <img src={im.url} />
           </SwiperSlide>
         ))}

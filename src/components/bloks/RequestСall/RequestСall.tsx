@@ -13,8 +13,6 @@ export const RequestСall: React.FC<Bla> = ({ setModalOpen }) => {
     name: "",
     phone: "",
   });
-
-
  
 
   const setnContact = () => {

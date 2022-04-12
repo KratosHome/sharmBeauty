@@ -9,6 +9,7 @@
 .menu li:hover .sub_menu {
     transition: all 500ms;
     transform: rotateY(0deg);
+    z-index: 2;
 }
 .sub_menu li {
     position: relative;

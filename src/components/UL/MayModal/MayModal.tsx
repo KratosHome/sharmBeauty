@@ -37,11 +37,11 @@ export const MayModal: React.FC<TodoListProps> = ({
         >
           <div className="animate__animated animate__flipInX">
             <div
-              className={md.myModalContent}
+              className="myModalContent"
               onClick={(e) => e.stopPropagation()}
             >
               <button
-                className={md.buttomCloseModal}
+                className="buttomCloseModal"
                 onClick={() => setVisible(false)}
               >
                 x
