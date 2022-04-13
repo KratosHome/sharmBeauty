@@ -1,0 +1,18 @@
+.BlockMain2{
+    margin-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+.BlockMain2Img1 img{
+    width: 300px;
+    height: 400px;
+}
+.BlockMain2Img2 img{
+    width: 300px;
+    height: 400px;
+}
+.BlockMain2Btn{
+    margin-top: 20%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
