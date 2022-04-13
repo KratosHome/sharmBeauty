@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useState } from "react";
 import PhoneInput from "react-phone-input-2";
 import { MayModalTwo } from "../../UL/MayModalTwo/MayModalTwo";
 import "./RequestСall.css";
@@ -8,8 +8,8 @@ interface Bla {
 }
 
 export const RequestСall: React.FC<Bla> = ({ setModalOpen }) => {
-  const [contactSent, setContactSent] = React.useState(false);
-  const [inputValue, serInputValue] = React.useState({
+  const [contactSent, setContactSent] = useState(false);
+  const [inputValue, serInputValue] = useState({
     name: "",
     phone: "",
   });

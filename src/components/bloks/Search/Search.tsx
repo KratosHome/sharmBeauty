@@ -1,4 +1,3 @@
-import * as React from "react";
 import search from "../../../img/icons/search.png";
 import { Link } from "react-router-dom";
 

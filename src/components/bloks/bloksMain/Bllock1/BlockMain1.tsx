@@ -1,4 +1,3 @@
-import * as React from "react";
 import { MayButton } from "../../../UL/MayButton/MayButton";
 import "./BlockMain1.css";
 import img1 from "../../../../img/baner/block-1/block1.jpg";

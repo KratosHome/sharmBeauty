@@ -1,9 +1,8 @@
-import * as React from "react";
 import "./Menu.css";
 import logo from "../../../../img/icons/logo.png";
 import close from "../../../../img/icons/slose.png";
 import sub_menu from "../../../../img/icons/menu.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import MenuServer from "../../../../API/MenuServer";
 
@@ -22,7 +21,7 @@ export const Menu: React.SFC<{}> = () => {
     const getMenu = await MenuServer.MenPage();
     setGetMenu(getMenu);
   }
-  React.useEffect(() => {
+  useEffect(() => {
     fetchMenu();
   }, []);
 

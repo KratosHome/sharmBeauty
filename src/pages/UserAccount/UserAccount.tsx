@@ -1,4 +1,4 @@
-import * as React from "react";
+import  React from "react";
 
 import { PersonalAccount } from "../PersonalAccount/PersonalAccount";
 import "./UserAccount.css";

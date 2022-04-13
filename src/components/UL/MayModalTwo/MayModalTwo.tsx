@@ -1,6 +1,6 @@
-import * as React from "react";
 import "./MayModalTwo.css";
 import "animate.css";
+import { useEffect } from "react";
 
 interface modal {
   visible: boolean;
@@ -12,7 +12,7 @@ export const MayModalTwo: React.FC<modal> = ({
   visible,
   setVisible,
 }) => {
-  React.useEffect(() => {
+  useEffect(() => {
     const timeId = setTimeout(() => {
       setVisible(false);
     }, 1000);

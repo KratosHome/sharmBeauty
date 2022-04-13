@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./UserAccount.css";
 import userEnter from "../../../img/icons/enter.png";
 import { Link } from "react-router-dom";

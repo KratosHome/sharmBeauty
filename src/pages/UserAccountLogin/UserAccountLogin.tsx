@@ -1,4 +1,4 @@
-import * as React from "react";
+import { useContext } from "react";
 import { useForm, Resolver, SubmitHandler } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { MayButton } from "../../components/UL/MayButton/MayButton";
@@ -22,7 +22,7 @@ export const UserAccountLogin: React.SFC<{}> = () => {
     loginIn();
   });
 
-  const { isAuth, setIsAuth } = React.useContext(LoginContext);
+  const { isAuth, setIsAuth } = useContext(LoginContext);
 
   const loginIn = () => {
     setIsAuth(true);

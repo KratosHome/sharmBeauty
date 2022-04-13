@@ -1,14 +1,14 @@
-import * as React from "react";
 import "./thema.css";
 import sun from "../../../img/icons/sun.png";
 import moon from "../../../img/icons/moon.png";
 import "animate.css";
 import { CSSTransition } from "react-transition-group";
 import { useTheme } from "../../../hooks/useTheme";
+import { useEffect, useState } from 'react';
 
 export const Thema: React.FC<{}> = () => {
   const { theme, setTheme } = useTheme();
-  const [bulem, setBulem] = React.useState(false);
+  const [bulem, setBulem] = useState(false);
 
   const handalClick = () => {
     setTheme("light");
@@ -17,7 +17,7 @@ export const Thema: React.FC<{}> = () => {
     setTheme("dark");
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (theme === "light") {
       setBulem(true);
     } else {

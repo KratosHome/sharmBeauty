@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./Header.css";
 import logo from "../../../img/icons/logo.png";
 import { MayModal } from "../../UL/MayModal/MayModal";
@@ -14,9 +13,10 @@ import { Search } from "../Search/Search";
 import { Comparison } from "../Comparison/Comparison";
 import { Basket } from "../Basket/Basket";
 import { Menu } from "./Munu/Menu";
+import { useState } from 'react';
 
 export const Header: React.FC = () => {
-  const [modalOpen, setModalOpen] = React.useState<boolean>(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
   return (
     <header>
       <div className="containderHead">

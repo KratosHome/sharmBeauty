@@ -1,4 +1,3 @@
-import * as React from "react";
 import md from "./MayModal.module.css";
 import "./MayModaT.css";
 import "animate.css";
