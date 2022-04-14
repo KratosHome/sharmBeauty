@@ -16,6 +16,8 @@ export const BlockMain2: React.SFC<{}> = () => {
       <div className="BlockMainImg BlockMain2Img2">
         <img src={img2} />
       </div>
+
+
     </div>
   );
 };
