@@ -1,12 +1,13 @@
 [
     {
         "id": 526851,
-        "name": "Etro Pegaso Eau De Toilette - Туалетная вода",
+        "name": "Etro Pegaso",
+        "nameDiscription": "Туалетная вода",
         "prise": 2905.00,
         "newPrise": 1400.00,
         "size": 30,
         "count": 30,
-        "grade": 5,
+        "grade": 4.6,
         "brend": "Etro",
         "categories": [
             "Lux",
@@ -20,16 +21,18 @@
         "Нота сердца:": "базилик, ирис, перец",
         "Конечная нота": "бальзамическая нота, кедр, лабданум",
         "description": "Lorem",
-        "img": "/img/product/etro_pegaso_eau_de_toilette.jpg"
+        "img": "/img/product/etro_pegaso_eau_de_toilette.jpg",
+        "limk": "Etro_Pegaso_30"
     },
     {
         "id": 5268511,
-        "name": "Etro Pegaso Eau De Toilette - Туалетная вода",
+        "name": "Etro Pegaso",
+        "nameDiscription": "Туалетная вода",
         "prise": 3905,
         "newPrise": 2400,
         "size": 50,
         "count": 30,
-        "grade": 5,
+        "grade": 4,
         "brend": "Etro",
         "categories": [
             "Lux",
@@ -43,16 +46,18 @@
         "Нота сердца:": "базилик, ирис, перец",
         "Конечная нота": "бальзамическая нота, кедр, лабданум",
         "description": "Lorem",
-        "img": "/img/product/etro_pegaso_eau_de_toilette.jpg"
+        "img": "/img/product/etro_pegaso_eau_de_toilette.jpg",
+        "limk": "Etro_Pegaso_50"
     },
     {
         "id": 411032,
-        "name": "Givenchy Ange Ou Demon Le Secret - Туалетная вода",
+        "name": "Givenchy Ange Ou Demon Le Secret",
+        "nameDiscription": "Туалетная вода",
         "prise": 3905,
         "newPrise": 2400,
         "size": 50,
         "count": 30,
-        "grade": 5,
+        "grade": 3.6,
         "brend": "Givenchy",
         "categories": [
             "Lux",
@@ -66,16 +71,18 @@
         "Нота сердца:": "жасмин, роза, чай",
         "Конечная нота": "мускус, пачули",
         "description": "Lorem",
-        "img": "/img/product/givenchy_ange_ou_demon_le_secret.jpg"
+        "img": "/img/product/givenchy_ange_ou_demon_le_secret.jpg",
+        "limk": "Givenchy_Ange_Ou_Demon_Le_Secret_50"
     },
     {
         "id": 397871,
-        "name": "Olfactive Studio Lumiere Blanche - Парфюмированная вода",
+        "name": "Olfactive Studio Lumiere Blanche",
+        "nameDiscription": "Парфюмированная вода",
         "prise": 3905,
         "newPrise": 2400,
         "size": 50,
         "count": 30,
-        "grade": 5,
+        "grade": 2,
         "brend": "Olfactive Studio",
         "categories": [
             "Lux",
@@ -89,11 +96,13 @@
         "Нота сердца:": "ирис, кашемировое дерево, миндаль",
         "Конечная нота": "белый кедр, бобы тонка, сандаловое дерево",
         "description": "Lorem",
-        "img": "/img/product/olfactive_studio_lumiere_blanche.jpg"
+        "img": "/img/product/olfactive_studio_lumiere_blanche.jpg",
+        "limk": "Olfactive_Studio_Lumiere_Blanche_50"
     },
     {
         "id": 439009,
-        "name": "Dior Sauvage Eau De Toilette - Туалетная вода",
+        "name": "Dior Sauvage",
+        "nameDiscription": "Туалетная вода",
         "prise": 3905,
         "newPrise": 2400,
         "size": 50,
@@ -112,6 +121,7 @@
         "Нота сердца:": "ветивер, герань, лаванда, пачули, розовый перец, сычуаньский перец, элеми",
         "Конечная нота": "амброксан, кедр, лабданум",
         "description": "Lorem",
-        "img": "/img/product/dior_sauvage_.jpg"
+        "img": "/img/product/dior_sauvage_.jpg",
+        "limk": "Dior_Sauvage_50"
     }
 ]

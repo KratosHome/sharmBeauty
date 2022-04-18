@@ -27,13 +27,17 @@
 }
 .BlockMain2Img1,
 .BlockMain2Img1 img {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: auto;
 }
 .BlockMain2Img2,
 .BlockMain2Img2 img {
-    width: 350px;
-    height: 450px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    height: auto;
 }
 .BlockMain2Btn {
 }

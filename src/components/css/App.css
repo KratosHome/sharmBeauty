@@ -54,6 +54,7 @@ html[data-theme="dark"] {
 }
 
 *,
+a,
 *::after,
 *::before {
     margin: 0;
@@ -90,4 +91,12 @@ li{
 .row2{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.icons{
+    width: 100%;
+    max-width: 23px;
+    height: auto;
+}
+.img{
+
 }
