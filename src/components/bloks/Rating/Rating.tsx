@@ -1,6 +1,4 @@
-
 import Rating from '@mui/material/Rating';
-
 import start from "../../../img/icons/star.png"
 import start_2 from "../../../img/icons/star-2.png"
 

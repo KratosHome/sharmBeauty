@@ -47,3 +47,6 @@
 .productIcon {
     position: absolute;
 }
+.catalogName{
+    opacity: 0.5;
+}

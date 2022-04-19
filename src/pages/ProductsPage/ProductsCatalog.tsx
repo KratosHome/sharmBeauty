@@ -48,7 +48,7 @@ export const ProductsCatalog: React.SFC<{}> = () => {
                 <div className="filter">filter</div>
                 <div className="ProductsCatalogProducts">
                     {getProduct.map(prod => (
-                        <ProductList key={prod.id} product={prod}/>))}
+                        <ProductList key={prod.name} product={prod}/>))}
                 </div>
             </div>
         </>

@@ -4,6 +4,7 @@ import heart from "../../../img/icons/heart.png"
 import comparison from "../../../img/icons/comparisonBlack.png"
 import {Link} from "react-router-dom";
 import {MayRating} from "../Rating/Rating";
+import {ProductSelection} from "../ProductSelection/ProductSelection";
 
 interface ProductType {
     product: any,
@@ -13,24 +14,26 @@ interface ProductType {
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
 
     return (
-        <Link to={product.limk}>
-            <div className="ProductListContainer row1 row2">
-                <div className="productIcon">
-                    <img className="icons" src={comparison}/>
-                    <img className="icons" src={heart}/>
-                </div>
-                <div className="productContant">
-                    <img className="ProductListImg" src={product.img}/>
-                    <MayRating props={product.grade}/>
-                    <div>{product.grade}</div>
-                    <div>{product.nameDiscription}</div>
-                    <div>{product.name}</div>
-                    <div>{product.prise} грн.</div>
-                    <div>{product.newPrise} грн.</div>
-                    <div>{product.size} мл.</div>
-                    <MayButton>ДО КОШИКУ</MayButton>
-                </div>
+
+        <div className="ProductListContainer row1 row2">
+            <div>sale</div>
+            <div>prezent</div>
+            <div className="productIcon">
+                <img className="icons" src={comparison}/>
+                <img className="icons" src={heart}/>
             </div>
-        </Link>
+            <div className="productContant">
+                <Link to={product.link}>
+                    <img className="ProductListImg" src={product.img}/>
+                </Link>
+
+                <MayRating props={product.grade}/>
+                <div>{product.nameDiscription}</div>
+                <div className='catalogName'>{product.name}</div>
+                <ProductSelection key={product.name} product={product}/>
+                <MayButton>ДО КОШИКУ</MayButton>
+            </div>
+        </div>
+
     )
 };

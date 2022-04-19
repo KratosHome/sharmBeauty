@@ -5,7 +5,7 @@ interface Menu{
 }
 export default class ProductServer{
     static async ProductPage(){
-        const response =  await axios.get("https://run.mocky.io/v3/642d7bbe-9437-436f-a16e-afdca57889e2")
+        const response =  await axios.get("https://run.mocky.io/v3/fc924f49-360c-446b-8400-0709507133e5")
         return response.data
     }
 }
