@@ -1,10 +1,44 @@
 .ProductSizeContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ProductSizeContainer2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ProductSize {
-    margin: 5px 2px 2px 2px;
-    padding: 3px;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 4px 17px 8px 5px;
+    padding-left: 5px;
+    border-radius: 2px;
+}
+
+.ProductSize:hover {
+    border: 1px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.ProductSizechosen {
+    background-color: rgba(236, 187, 187, 0.2);
+}
+
+.ProductSizeContainer2 select {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 55%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 5px;
 }

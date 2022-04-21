@@ -1,5 +1,4 @@
 import "./ProductList.css"
-import {MayButton} from "../../UL/MayButton/MayButton";
 import heart from "../../../img/icons/heart.png"
 import comparison from "../../../img/icons/comparisonBlack.png"
 import {Link} from "react-router-dom";
@@ -18,19 +17,18 @@ export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
             <div>sale</div>
             <div>prezent</div>
             <div className="productIcon">
-                <img className="icons" src={comparison}/>
-                <img className="icons" src={heart}/>
+                <img className="icons" src={comparison} alt="comparison"/>
+                <img className="icons" src={heart} alt="heart"/>
             </div>
             <div className="productContant">
                 <Link to={product.link}>
-                    <img className="ProductListImg" src={product.img}/>
+                    <img className="ProductListImg" src={product.img} alt={product.name}/>
                 </Link>
 
                 <MayRating props={product.grade}/>
                 <div>{product.nameDiscription}</div>
                 <div className='catalogName'>{product.name}</div>
                 <ProductSelection key={product.name} product={product}/>
-                <MayButton>ДО КОШИКУ</MayButton>
             </div>
         </div>
 
