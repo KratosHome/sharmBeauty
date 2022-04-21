@@ -6,35 +6,35 @@
     "prod": [
       {
         "id": "526851",
-        "size": 30,
+        "size": "30 мл",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "526852",
-        "size": 50,
+        "size": "50",
         "prise": 2305.00,
         "newPrise": 1900.00,
         "count": 30
       },
       {
         "id": "526853",
-        "size": 100,
+        "size": "100",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30
       },
       {
         "id": "5268453",
-        "size": 150,
+        "size": "150",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30
       },
       {
         "id": "5326853",
-        "size": 200,
+        "size": "200",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30
@@ -63,77 +63,77 @@
     "prod": [
       {
         "id": "411032",
-        "size": 30,
+        "size": "30",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "411033",
-        "size": 50,
+        "size": "50",
         "prise": 2305.00,
         "newPrise": 1900.00,
         "count": 30
       },
       {
         "id": "411034",
-        "size": 100,
+        "size": "100",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30
       },
       {
         "id": "411039",
-        "size": 150,
+        "size": "150",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "421039",
-        "size": 200,
+        "size": "200",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 200
       },
       {
         "id": "413039",
-        "size": 250,
+        "size": "250",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 250
       },
       {
         "id": "4111439",
-        "size": 300,
+        "size": "300",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 300
       },
       {
         "id": "4113039",
-        "size": 350,
+        "size": "350",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "4113334",
-        "size": 450,
+        "size": "450",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "4153039",
-        "size": 550,
+        "size": "550",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "4133039",
-        "size": 650,
+        "size": "650",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
@@ -162,21 +162,21 @@
     "prod": [
       {
         "id": "397871",
-        "size": 30,
+        "size": "30",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "397872",
-        "size": 50,
+        "size": "50",
         "prise": 2305.00,
         "newPrise": 1900.00,
         "count": 30
       },
       {
         "id": "397873",
-        "size": 100,
+        "size": "100",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30
@@ -205,21 +205,21 @@
     "prod": [
       {
         "id": "439001",
-        "size": 30,
+        "size": "30",
         "prise": 1905.00,
         "newPrise": 1400.00,
         "count": 30
       },
       {
         "id": "439003",
-        "size": 50,
+        "size": "50",
         "prise": 2305.00,
         "newPrise": 1900.00,
         "count": 30
       },
       {
         "id": "439005",
-        "size": 100,
+        "size": "100",
         "prise": 2905.00,
         "newPrise": 2400.00,
         "count": 30

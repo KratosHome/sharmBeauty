@@ -14,7 +14,6 @@ interface ProductType {
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
 
     return (
-
         <div className="ProductListContainer row1 row2">
             <div>sale</div>
             <div>prezent</div>

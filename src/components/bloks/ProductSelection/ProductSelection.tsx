@@ -1,5 +1,5 @@
 import "./ProductSelection.css"
-import {FormEvent, useEffect, useState} from "react";
+import React, {FormEvent, useEffect, useState} from "react";
 import {MayButton} from "../../UL/MayButton/MayButton";
 
 
@@ -26,16 +26,17 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({product})
         e.preventDefault();
         console.log(size)
     }
-    const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
-        setSize(+e.target.value)
+    const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {
+        setSize(e.currentTarget.value)
     }
 
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
-                {product.prod.length >= 6
-                    ?
+
+            {product.prod.length >= 6
+                ?
+                <form onSubmit={handleSubmit}>
                     <label>
                         <select value={size} onChange={handleClick}>
                             {product.prod.map((item: any) => (
@@ -45,29 +46,25 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({product})
                             ))
                             }
                         </select>
+                        <button type='submit'>Submit</button>
                     </label>
-                    :
-                    <div onClick={(e) => console.log(e.target)} className="ProductSizeContainer">
-                        {product.prod.map((item: any) => (
-                            <div className="ProductSize" key={item.id}>
-                                <input
-                                    type="checkbox"
-                                    className='custom-checkbox'
-                                    name={"lable"}
-                                    onChange={handleClick}
-                                    value={item.size}
-                                />
-                                <label htmlFor={"lable"}>{item.size} мл</label>
-                            </div>
-                        ))}
-                    </div>
-
-                }
-
-                <button type='submit'>Submit</button>
-            </form>
-
-
+                </form>
+                :
+                <form onSubmit={handleSubmit} className="ProductSizeContainer">
+                    {product.prod.map((item: any) => (
+                        <div className="ProductSize" key={item.id}>
+                            <input
+                                onClick={handleClick}
+                                type="button"
+                                className='custom-checkbox'
+                                name={"lable"}
+                                value={item.size}
+                            />
+                        </div>
+                    ))}
+                    <button type='submit'>Submit</button>
+                </form>
+            }
             <del>{product.prise} мл.</del>
             <div>{product.newPrise} грн.</div>
         </>
