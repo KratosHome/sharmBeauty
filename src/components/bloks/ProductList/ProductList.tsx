@@ -29,7 +29,10 @@ export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
             </div>
             <div className="lable">
                 <div className="percentageDiscount">-{percentageDiscount}%</div>
-                <img className="giftbox " src={giftbox} alt="giftbox"/>
+                {product.present.length > 2
+                    ? <img className="giftbox " src={giftbox} alt="giftbox"/>
+                    : null
+                }
             </div>
             <div className="productContant">
                 <Link to={product.link}>

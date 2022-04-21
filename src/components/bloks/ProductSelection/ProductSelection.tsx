@@ -32,7 +32,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
             setPercentageDiscount(Math.trunc(prise))
             console.log(filter)
             setFilterPrise(filter)
-        }, [size, product, setPercentageDiscount])
+        }, [size])
 
 
         return (
