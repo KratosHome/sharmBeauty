@@ -13,7 +13,7 @@
       },
       {
         "id": "526852",
-        "size": "50",
+        "size": "50 мл",
         "prise": 2305.00,
         "newPrise": 1900.00,
         "count": 30
@@ -28,15 +28,15 @@
       {
         "id": "5268453",
         "size": "150",
-        "prise": 2905.00,
-        "newPrise": 2400.00,
+        "prise": 3905.00,
+        "newPrise": 3400.00,
         "count": 30
       },
       {
         "id": "5326853",
         "size": "200",
-        "prise": 2905.00,
-        "newPrise": 2400.00,
+        "prise": 4905.00,
+        "newPrise": 5400.00,
         "count": 30
       }
     ],
@@ -46,6 +46,7 @@
       "Туалетная вода",
       "New"
     ],
+    "present": "Buy for UAH 1,000. Chanel and get nails as a gift",
     "countri": "Италия",
     "female": "унисекс",
     "Aroma type": "древесные, свежие",
@@ -78,29 +79,29 @@
       {
         "id": "411034",
         "size": "100",
-        "prise": 2905.00,
-        "newPrise": 2400.00,
+        "prise": 3905.00,
+        "newPrise": 3400.00,
         "count": 30
       },
       {
         "id": "411039",
         "size": "150",
-        "prise": 1905.00,
-        "newPrise": 1400.00,
+        "prise": 4905.00,
+        "newPrise": 4400.00,
         "count": 30
       },
       {
         "id": "421039",
         "size": "200",
-        "prise": 1905.00,
-        "newPrise": 1400.00,
+        "prise": 5905.00,
+        "newPrise": 5400.00,
         "count": 200
       },
       {
         "id": "413039",
         "size": "250",
-        "prise": 1905.00,
-        "newPrise": 1400.00,
+        "prise": 105.00,
+        "newPrise": 140.00,
         "count": 250
       },
       {
@@ -145,6 +146,7 @@
       "Туалетная вода",
       "New"
     ],
+    "present": null,
     "countri": "Италия",
     "female": "унисекс",
     "Aroma type": "древесные, свежие",
@@ -188,6 +190,7 @@
       "Туалетная вода",
       "New"
     ],
+    "present": "Buy for UAH 1,000. Chanel and get nails as a gift",
     "countri": "Италия",
     "female": "унисекс",
     "Aroma type": "древесные, свежие",
@@ -231,6 +234,7 @@
       "Туалетная вода",
       "New"
     ],
+    "present": null,
     "countri": "Италия",
     "female": "унисекс",
     "Aroma type": "древесные, свежие",

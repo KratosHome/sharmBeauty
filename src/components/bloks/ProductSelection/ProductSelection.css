@@ -42,3 +42,18 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.prise{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.prise del{
+    font-size: 1.2rem;
+}
+.prise div{
+    font-size: 1.5rem;
+}
+
+.newPrise{
+    color: rgba(255, 0, 0, 0.8);
+
+}
