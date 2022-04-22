@@ -95,7 +95,7 @@ li{
 .icons{
     width: 100%;
     max-width: 23px;
-    height: auto;
+    max-height: 25px;
 }
 .img{
 

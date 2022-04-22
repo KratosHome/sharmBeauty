@@ -14,6 +14,8 @@ interface ProductType {
 // Todo: -Likes, -comparison
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
 
+
+    // sale
     const [percentageDiscount, setPercentageDiscount] = useState(1)
     useEffect(() => {
         let sale = ((product.prod[0].prise - product.prod[0].newPrise) / product.prod[0].prise * 100)
@@ -22,7 +24,7 @@ export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
 
 
     return (
-        <div className="ProductListContainer row1 row2">
+        <div className="ProductListContainer row1 row2 ">
             <div className="productIcon">
                 <img className="icons" src={comparison} alt="comparison"/>
                 <img className="icons" src={heart} alt="heart"/>
@@ -30,7 +32,7 @@ export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
             <div className="lable">
                 <div className="percentageDiscount">-{percentageDiscount}%</div>
                 {product.present.length > 2
-                    ? <img className="giftbox " src={giftbox} alt="giftbox"/>
+                    ? <img className="giftbox" src={giftbox} alt="giftbox"/>
                     : null
                 }
             </div>

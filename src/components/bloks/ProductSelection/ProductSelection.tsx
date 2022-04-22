@@ -30,7 +30,6 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
             let filter = product.prod.filter((bla: any) => bla.size === size)
             let prise = filter.map((e: any) => ((e.prise - e.newPrise) /  e.prise) * 100)
             setPercentageDiscount(Math.trunc(prise))
-            console.log(filter)
             setFilterPrise(filter)
         }, [size])
 

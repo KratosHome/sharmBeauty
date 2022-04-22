@@ -1,31 +1,67 @@
 import "./Slider.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {FreeMode, Pagination, Autoplay, Navigation} from "swiper";
+import {useEffect, useLayoutEffect, useState} from "react";
+import ProductServer from "../../../API/ProductServer";
+import {ProductList} from "../ProductList/ProductList";
+import {useWindowSize} from "../../../hooks/useWindowSize";
 
 
 export const Slider: React.FC<{}> = () => {
-  return (
-    <div>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </div>
-  );
+    const [getProduct, setGetProduct] = useState<any[]>([]);
+    async function fetchProducts() {
+        const getProduct = await ProductServer.ProductPage();
+        setGetProduct(getProduct);
+    }
+    useEffect(() => {
+        fetchProducts();
+    }, []);
+
+
+    const [width, height] = useWindowSize();
+    let responsive
+    function counInstagramSlider() {
+        responsive = 5
+        if (+width <= 730) {
+            responsive = 1
+        } else if (+width <= 1024) {
+            responsive = 3
+        } else if (+width <= 1571) {
+            responsive = 4
+        } else if (+width <= 2025) {
+            responsive = 5
+        } else if (+width <= 3020) {
+            responsive = 6
+        }
+        return responsive;
+    }
+
+    return (
+        <div className="swiper-container">
+            <Swiper
+                slidesPerView={counInstagramSlider()}
+                spaceBetween={30}
+                slidesPerGroup={1}
+                autoplay={{
+                    delay: 2000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
+                loopFillGroupWithBlank={true}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={true}
+                modules={[Pagination, Navigation, Autoplay]}
+                className="mySwiper"
+
+            >
+                {getProduct.map(prod => (
+                    <SwiperSlide key={prod.name}>
+                        <ProductList key={prod.name} product={prod}/>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
+    );
 };

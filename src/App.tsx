@@ -8,6 +8,7 @@ import { LoginContext } from "./context";
 
 
 const App: React.FC = () => {
+  
   const [isAuth, setIsAuth] = useState(false);
   useEffect(() => {
     if (localStorage.getItem("auth")) {
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       setIsAuth(false);
     }
   }, []);
+
   return (
     <LoginContext.Provider value={{ isAuth, setIsAuth }}>
       <div className="App">
