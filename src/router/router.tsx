@@ -5,6 +5,8 @@ import { LikesPage } from "../pages/LikesPage/LikesPage";
 import { PersonalAccount } from "../pages/PersonalAccount/PersonalAccount";
 import { ProductsCatalog } from '../pages/ProductsPage/ProductsCatalog';
 import ProductPage from "../pages/ProductPage/ProductPage";
+import {LoginContext} from "../context";
+import {useContext} from "react";
 
 
 export const ProviderRouter: any[] = [
@@ -14,8 +16,6 @@ export const ProviderRouter: any[] = [
   { path: "/makiyazh/:id", component: <ProductPage/>, exact: true },
   { path: "/", component: <Main />, exact: true },
   { path: "/makiyazh", component: <ProductsCatalog/>, exact: true },
-];
-
-export const UserPagaes: any[] = [
   { path: "/login", component: <PersonalAccount />, exact: true },
 ];
+

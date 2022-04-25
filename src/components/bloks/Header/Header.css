@@ -101,3 +101,7 @@ header {
     }
 }
 
+a.active {
+    color: var(--hover-link-color);
+}
+

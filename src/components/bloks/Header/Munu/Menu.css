@@ -2,22 +2,27 @@
     display: flex;
     justify-content: center;
 }
+
 .menu > ul > li {
     height: 30px;
     display: block;
 }
+
 .menu li:hover .sub_menu {
     transition: all 500ms;
     transform: rotateY(0deg);
     z-index: 2;
 }
+
 .sub_menu li {
     position: relative;
 }
+
 .sub_menu a {
     display: block;
     margin: 5px 29px 5px 15px;
 }
+
 .sub_menu {
     position: absolute;
     transform: rotateY(90deg);
@@ -31,10 +36,12 @@
     color: black;
     border: 1px solid rgba(20, 110, 205, 0.5);
 }
-.sub_menu  {
+
+.sub_menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .sub_menu a {
     text-align: left;
     color: var(--link-fon-color-menu);
@@ -44,17 +51,21 @@
     color: var(--hover-link-color-menu);
     transition: 0.5s;
 }
+
 .menu_mob_openMenu_label,
 .close_menu,
 .logoMenuOpne {
     display: none;
 }
+
+
 @media (max-width: 928px) {
     .menu_mob_openMenu_label,
     .close_menu,
     .logoMenuOpne {
         display: block;
     }
+
     .close_menu {
         position: absolute;
         width: 30px;
@@ -68,9 +79,11 @@
         color: black;
         background-color: black;
     }
+
     .menu ul {
         flex-direction: column;
     }
+
     .menu_mob_open {
         position: absolute;
         margin: 0;
@@ -84,16 +97,19 @@
         transform-origin: left;
         transition: 500ms;
     }
+
     .animation_menu_open {
         transform: all rotateY(0deg);
         transition: 500ms;
     }
+
     .manu_close {
         position: absolute;
         left: -500px;
         transform: all rotateX(0deg);
         transition: 500ms;
     }
+
     .menu_mob_open a {
         margin-bottom: 0;
         margin-left: 0px;
@@ -147,11 +163,13 @@
         height: 2px;
         background-color: var(--background-color-menu);
     }
+
     .menu_mob_openMenu_label img {
         width: 65px;
     }
+
     .menu_mob_openMenu_label {
- 
+
         display: block;
         border: 1px solid black;
         width: 50%;
@@ -191,9 +209,11 @@
         height: 1px;
         background-color: black;
     }
+
     .menu_mob_openMenu_label div:nth-child(4) {
         padding-left: 45%;
         margin-top: -15px;
         text-transform: uppercase;
     }
 }
+

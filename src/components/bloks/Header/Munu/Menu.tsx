@@ -2,82 +2,89 @@ import "./Menu.css";
 import logo from "../../../../img/icons/logo.png";
 import close from "../../../../img/icons/slose.png";
 import sub_menu from "../../../../img/icons/menu.png";
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import {useEffect, useState} from "react";
+import {Link, NavLink} from "react-router-dom";
 import MenuServer from "../../../../API/MenuServer";
 
 interface Menu {
-  id: number;
-  name: string;
-  CubMenu: any[];
-  path: string;
-  block: number;
+    id: number;
+    name: string;
+    CubMenu: any[];
+    path: string;
+    block: number;
 }
+
 export const Menu: React.SFC<{}> = () => {
-  const [menuActive, setMenuActiv] = useState(false);
-  const [getMenu, setGetMenu] = useState<Menu[]>([]);
+    const [menuActive, setMenuActiv] = useState(false);
+    const [menuAcriveLink, setMenuActiveLink] = useState(false)
+    const [getMenu, setGetMenu] = useState<Menu[]>([]);
 
-  async function fetchMenu() {
-    const getMenu = await MenuServer.MenPage();
-    setGetMenu(getMenu);
-  }
-  useEffect(() => {
-    fetchMenu();
-  }, []);
+    async function fetchMenu() {
+        const getMenu = await MenuServer.MenPage();
+        setGetMenu(getMenu);
+    }
 
-  return (
-    <div className="background_menu">
-      <div
-        className="menu_mob_open_label"
-        onClick={() => setMenuActiv(!menuActive)}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <nav
-        className={
-          menuActive ? "menu_mob_open animation_menu_open " : "manu_close menu"
-        }
-      >
-        <img
-          onClick={() => setMenuActiv(!menuActive)}
-          className="close_menu"
-          src={close}
-          alt="зикрити меню"
-        />
-        <ul>
-          <div
-            className="menu_mob_openMenu_label"
-            onClick={() => setMenuActiv(!menuActive)}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-            <div>
-              <img className="logoMenuOpne" src={logo} alt="Logo" />
+    useEffect(() => {
+        fetchMenu();
+    }, []);
+
+    return (
+        <>
+            <div
+                className="menu_mob_open_label"
+                onClick={() => setMenuActiv(!menuActive)}
+            >
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-          </div>
-          {getMenu.map((menu) => (
-            <ul key={menu.id}>
-              <li>
-                <a href={menu.path}>{menu.name}</a>
-                {menu.CubMenu.length > 1 ? (
-                  <ul className="sub_menu">
-                    {menu.CubMenu.map((cub) => (
-                      <li key={cub.id}> 
-                        <a href={cub.path}>{cub.name}</a>
-                      </li>
+            <nav
+                className={
+                    menuActive ? "menu_mob_open animation_menu_open " : "manu_close menu"
+                }
+            >
+                <img
+                    onClick={() => setMenuActiv(!menuActive)}
+                    className="close_menu"
+                    src={close}
+                    alt="зикрити меню"
+                />
+                <ul>
+                    <div
+                        className="menu_mob_openMenu_label"
+                        onClick={() => setMenuActiv(!menuActive)}
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div>
+                            <img className="logoMenuOpne" src={logo} alt="Logo"/>
+                        </div>
+                    </div>
+                    {getMenu.map((menu) => (
+                        <ul key={menu.id}>
+                            <li>
+                                <NavLink
+                                    to={menu.path}
+                                >
+                                    {menu.name}
+                                </NavLink>
+                                {menu.CubMenu.length > 1 ? (
+                                    <ul className="sub_menu">
+                                        {menu.CubMenu.map((cub) => (
+                                            <li key={cub.id}>
+                                                <NavLink to={cub.path}>{cub.name}</NavLink>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    false
+                                )}
+                            </li>
+                        </ul>
                     ))}
-                  </ul>
-                ) : (
-                  false
-                )}
-              </li>
-            </ul>
-          ))}
-        </ul>
-      </nav>
-    </div>
-  );
+                </ul>
+            </nav>
+        </>
+    );
 };
