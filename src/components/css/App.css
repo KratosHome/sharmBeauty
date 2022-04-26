@@ -35,6 +35,7 @@ html[data-theme="light"] {
 
     --hover-link-color: rgb(250, 1, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
+    --background-image-theme: url("../../img/icons_backgraound/sun.png") ;
 }
 
 html[data-theme="dark"] {
@@ -51,6 +52,7 @@ html[data-theme="dark"] {
 
     --hover-link-color: rgba(191, 21, 75, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
+    --background-image-theme: url("../../img/icons_backgraound/sleep-mode.png") ;
 }
 
 *,
