@@ -1,0 +1,15 @@
+.ProductСharacteristics{
+    margin-top: 40px;
+}
+.ProductСharacteristics h1{
+    margin-bottom: 10px;
+}
+.ProductСharacteristics div{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ProductСharacteristics span{
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
