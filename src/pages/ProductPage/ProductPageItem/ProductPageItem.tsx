@@ -11,7 +11,7 @@ interface ProductPage {
 
 export const ProductPageItem: React.FC<ProductPage> = ({item}) => {
 
-    const [ setPercentageDiscount] = useState()
+    const [percentageDiscount, setPercentageDiscount] = useState()
     return (
         <div className="row1 row2">
             <div className="ProductPageContainer">

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add bloks productTabs" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add bloks productTabsfs1">
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +116,7 @@
       <workItem from="1650281996966" duration="24387000" />
       <workItem from="1650527113622" duration="31616000" />
       <workItem from="1650721523939" duration="615000" />
-      <workItem from="1650871795277" duration="37024000" />
+      <workItem from="1650871795277" duration="37331000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -211,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651058547629</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add bloks productTabsfs1">
+      <created>1651058571122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651058571122</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +255,8 @@
     <MESSAGE value="add product list, product img" />
     <MESSAGE value="add ProductCharacter" />
     <MESSAGE value="add bloks productTabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bloks productTabs" />
+    <MESSAGE value="add bloks productTabsfs1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bloks productTabsfs1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

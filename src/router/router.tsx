@@ -11,9 +11,9 @@ export const ProviderRouter: any[] = [
     {path: "/about", component: <AboutAss/>},
     {path: "/login", component: <UserAccount/>},
     {path: "/likes", component: <LikesPage/>},
-    {path: "/:id/", component: <ProductPage/>},
+    {path: "product/:id/", component: <ProductPage/>},
     {path: "/", component: <Main/>,},
-    {path: "*", component: <NotFound/>},
+    {path: "/*", component: <NotFound/>},
     {path: "/makiyazh/", component: <ProductsCatalog/>},
     {path: "/login/", component: <PersonalAccount/>},
 ];

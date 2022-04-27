@@ -25,7 +25,7 @@ const ProductPage = () => {
 
     return (
         <div>
-            {getProductInProduct.length ? (
+            {getProduct.length ? (
                     <>
                         {getProductInProduct.map(item => (
                             <ProductPageItem key={item.name} item={item}/>

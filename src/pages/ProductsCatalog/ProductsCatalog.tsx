@@ -2,8 +2,8 @@ import "./ProductsCatalog.css";
 import {useState, useEffect} from "react";
 import ProductServer from "../../API/ProductServer";
 import {ProductList} from "../../components/bloks/ProductList/ProductList";
+import {Loader} from "../../components/bloks/Loader/Loader";
 
-type categories = {}
 
 interface ProductPage {
     brend: string,
@@ -47,8 +47,16 @@ export const ProductsCatalog: React.SFC<{}> = () => {
             <div className="productContainer row1 row2">
                 <div className="filter">filter</div>
                 <div className="ProductsCatalogProducts">
-                    {getProduct.map(prod => (
-                        <ProductList key={prod.name} product={prod}/>))}
+                    {getProduct.map.length ? (
+                            <>
+                                {getProduct.map(prod => (
+                                    <ProductList key={prod.name} product={prod}/>))}
+                            </>
+                        )
+                        :
+                        <Loader/>
+                    }
+
                 </div>
             </div>
         </>
