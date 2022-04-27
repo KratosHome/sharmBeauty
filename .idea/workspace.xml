@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add bloks productTabs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27t8DyD0mpLAszspRIuVviTAd0q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.27" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.index.tsx">
+    <configuration default="true" type="NodeJSConfigurationType" singleton="false">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.tsx" type="NodeJSConfigurationType" singleton="false" nameIsGenerated="true" path-to-js-file="src/index.tsx" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="start" />
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="start" />
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.index.tsx" />
+      <item itemvalue="npm.run" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="" />
+      <created>1650127905547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650127905547</updated>
+      <workItem from="1650127907383" duration="13000" />
+      <workItem from="1650127974198" duration="10000" />
+      <workItem from="1650128175789" duration="20000" />
+      <workItem from="1650128200985" duration="10000" />
+      <workItem from="1650128334731" duration="2000" />
+      <workItem from="1650128453701" duration="12000" />
+      <workItem from="1650128886824" duration="1000" />
+      <workItem from="1650129985275" duration="2828000" />
+      <workItem from="1650133943004" duration="321000" />
+      <workItem from="1650134285986" duration="173000" />
+      <workItem from="1650174532715" duration="116000" />
+      <workItem from="1650174664522" duration="1098000" />
+      <workItem from="1650176053088" duration="1225000" />
+      <workItem from="1650183631596" duration="11929000" />
+      <workItem from="1650281996966" duration="24387000" />
+      <workItem from="1650527113622" duration="31616000" />
+      <workItem from="1650721523939" duration="615000" />
+      <workItem from="1650871795277" duration="37024000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit webstorm test">
+      <created>1650132490749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650132490749</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Reting Product, verstca product catalog">
+      <created>1650284383789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650284383789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add ProductSeletion">
+      <created>1650368736637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650368736637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add selectde product size">
+      <created>1650528420254</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650528420254</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add filter prise">
+      <created>1650532551586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650532551586</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add sale prodcut catalog">
+      <created>1650544185087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650544185087</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add sale prodcut present">
+      <created>1650544483993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650544483993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add broduct slider, product css">
+      <created>1650618472303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650618472303</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add footer">
+      <created>1650627945436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650627945436</updated>
+    </task>
+    <task id="LOCAL-00010" summary="remade theme">
+      <created>1650908311911</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650908311911</updated>
+    </task>
+    <task id="LOCAL-00011" summary="remade theme">
+      <created>1650969110359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650969110359</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add product list, product img">
+      <created>1651043527437</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651043527437</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add ProductCharacter">
+      <created>1651050320789</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651050320789</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add bloks productTabs">
+      <created>1651058547629</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651058547629</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit webstorm test" />
+    <MESSAGE value="add Reting Product, verstca product catalog" />
+    <MESSAGE value="add ProductSeletion" />
+    <MESSAGE value="add selectde product size" />
+    <MESSAGE value="add filter prise" />
+    <MESSAGE value="add sale prodcut catalog" />
+    <MESSAGE value="add sale prodcut present" />
+    <MESSAGE value="add broduct slider, product css" />
+    <MESSAGE value="add footer" />
+    <MESSAGE value="remade theme" />
+    <MESSAGE value="add product list, product img" />
+    <MESSAGE value="add ProductCharacter" />
+    <MESSAGE value="add bloks productTabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bloks productTabs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/router/router.tsx</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductСharacteristics/ProductСharacteristics.tsx</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductTabs/ProdcutDescription/ProdcutDescription.tsx</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductTabs/TabsCharacteristic/TabsCharacteristic.tsx</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
