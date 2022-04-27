@@ -3,6 +3,7 @@ import {useParams} from "react-router";
 import {useEffect, useState} from "react";
 import ProductServer from "../../API/ProductServer";
 import {ProductPageItem} from "./ProductPageItem/ProductPageItem";
+import {Loader} from "../../components/bloks/Loader/Loader";
 
 const ProductPage = () => {
     const [getProduct, setGetProduct] = useState<any[]>([]);
@@ -24,11 +25,18 @@ const ProductPage = () => {
 
     return (
         <div>
-            {getProductInProduct.map(item => (
-                <ProductPageItem key={item.name} item={item}/>
-            ))}
-            <div></div>
-
+            {getProductInProduct.length ? (
+                    <>
+                        {getProductInProduct.map(item => (
+                            <ProductPageItem key={item.name} item={item}/>
+                        ))}
+                    </>
+                )
+                :
+                (
+                    <Loader/>
+                )
+            }
         </div>
     )
 }

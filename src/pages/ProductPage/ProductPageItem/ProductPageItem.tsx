@@ -3,6 +3,7 @@ import {ProductSelection} from "../../../components/bloks/ProductSelection/Produ
 import {useState} from "react";
 import {ProductImg} from "../ProductImg/ProductImg";
 import {ProductСharacteristics} from "../ProductСharacteristics/ProductСharacteristics";
+import {ProductTabs} from "../ProductTabs/ProductTabs";
 
 interface ProductPage {
     item?: any;
@@ -10,7 +11,7 @@ interface ProductPage {
 
 export const ProductPageItem: React.FC<ProductPage> = ({item}) => {
 
-    const [percentageDiscount, setPercentageDiscount] = useState()
+    const [ setPercentageDiscount] = useState()
     return (
         <div className="row1 row2">
             <div className="ProductPageContainer">
@@ -21,8 +22,7 @@ export const ProductPageItem: React.FC<ProductPage> = ({item}) => {
                 </div>
             </div>
             <div>
-                <div>Коментарій</div>
-                <div>Покупок на сайте</div>
+               <ProductTabs/>
             </div>
         </div>
     )
