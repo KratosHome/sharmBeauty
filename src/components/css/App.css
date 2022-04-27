@@ -35,7 +35,7 @@ html[data-theme="light"] {
 
     --hover-link-color: rgb(250, 1, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
-    --background-image-theme: url("../../img/icons_backgraound/sun.png") ;
+    --background-image-theme: url("../../img/icons_backgraound/sun.png");
 }
 
 html[data-theme="dark"] {
@@ -52,7 +52,7 @@ html[data-theme="dark"] {
 
     --hover-link-color: rgba(191, 21, 75, 1);
     --hover-link-color-menu: rgb(250, 1, 1);
-    --background-image-theme: url("../../img/icons_backgraound/sleep-mode.png") ;
+    --background-image-theme: url("../../img/icons_backgraound/sleep-mode.png");
 }
 
 *,
@@ -65,9 +65,11 @@ a,
     font-family: "Comfortaa", cursive;
     font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 9px);
 }
-h1{
-    font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 25px); 
+
+h1 {
+    font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 25px);
 }
+
 @media (max-width: 928px) {
     *,
     *::after,
@@ -75,26 +77,32 @@ h1{
         font-size: calc((90vw - 470px) / (1980 - 470) * (16 - 10) + 15px);
     }
 }
+
 a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: var(--hover-link-color);
     transition: 0.5s;
     cursor: pointer;
 }
-li{
+
+li {
     list-style: none;
 }
-.row1{
+
+.row1 {
     margin-left: 30px;
     margin-right: 30px;
 }
-.row2{
+
+.row2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.icons{
+
+.icons {
     width: 100%;
     max-width: 23px;
     max-height: 25px;

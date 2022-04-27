@@ -1,0 +1,8 @@
+.ProductPageContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product_page_img{
+    width: 100%;
+    height: 100%;
+}

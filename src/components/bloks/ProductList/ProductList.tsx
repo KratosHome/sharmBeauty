@@ -37,7 +37,7 @@ export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
                 }
             </div>
             <div className="productContant">
-                <Link to={product.link}>
+                <Link to={`/${product.link}`}>
                     <img className="ProductListImg" src={product.img} alt={product.name}/>
                     <MayRating props={product.grade}/>
                     <div className="catalogDiscription">{product.nameDiscription}</div>
