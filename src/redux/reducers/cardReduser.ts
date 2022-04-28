@@ -1,13 +1,11 @@
 import {AddToCardActionsTypes, carActionType} from "../type/cardTypes";
 
 interface CardStateType {
-    id: number | null | any
-    size: string | null | any
+    id: any
 }
 
 const initialState: CardStateType = {
-    id: null,
-    size: []
+    id: [],
 }
 
 export const cardReduser = (state = initialState, action: carActionType) => {
@@ -15,7 +13,7 @@ export const cardReduser = (state = initialState, action: carActionType) => {
         case AddToCardActionsTypes.ADD_PRODUCT_TO_CARD:
             return {
                 ...state,
-                size:  [...state.size, action.data.size]
+                id: [...state.id, action.data.id]
             }
         default:
             return state;

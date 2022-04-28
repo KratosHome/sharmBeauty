@@ -18,21 +18,15 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
 
                                                                       }) => {
 
-        const state = useSelector((state: rootState) => {
-            return state
-        })
 
 
         const dispatch = useDispatch() // відправляти
-
         const [size, setSize] = useState(product.prod[0].size)
-        const ref = useRef()
-
         const [id, setId] = useState(product.prod[0].id)
 
         const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
-            dispatch(cardActions(size))
+            dispatch(cardActions(id))
         }
 
 
@@ -74,7 +68,6 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                 ))
                                 }
                             </select>
-                            <div>bla</div>
                             <MayButton>ДО КОШИКУ</MayButton>
                         </label>
                     </form>

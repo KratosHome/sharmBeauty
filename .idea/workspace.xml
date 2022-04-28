@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add state and dispatch in productPage">
-      <change afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add shengest product id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,7 @@
       <workItem from="1650281996966" duration="24387000" />
       <workItem from="1650527113622" duration="31616000" />
       <workItem from="1650721523939" duration="615000" />
-      <workItem from="1650871795277" duration="55216000" />
+      <workItem from="1650871795277" duration="56152000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -243,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651133614352</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add shengest product id">
+      <created>1651143179580</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651143179580</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +280,8 @@
     <MESSAGE value="add bloks productTabsfs1" />
     <MESSAGE value="corect bags" />
     <MESSAGE value="add state and dispatch in productPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state and dispatch in productPage" />
+    <MESSAGE value="add shengest product id" />
+    <option name="LAST_COMMIT_MESSAGE" value="add shengest product id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

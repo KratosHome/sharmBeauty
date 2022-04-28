@@ -7,9 +7,9 @@ import {rootState} from "../../../redux/reducers/rootReduser";
 export const Basket: React.SFC<{}> = () => {
 
     const state = useSelector((state: rootState) => {
-        return state.product.size
+        return state.product.id
     })
-
+    console.log()
 
     return (
         <div>
