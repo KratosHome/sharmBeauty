@@ -1,11 +1,11 @@
-
-import { type } from 'os';
-import { combineReducers } from 'redux';
-import { animateReducer } from './animateReduser';
+import {combineReducers} from 'redux';
+import {animateReducer} from './animateReduser';
+import {cardReduser} from './cardReduser';
 
 
 export const rootReducer = combineReducers({
-   animateReducer
+    test: animateReducer,
+    product: cardReduser
 })
 
 export type rootState = ReturnType<typeof rootReducer> 

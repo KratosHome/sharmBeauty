@@ -1,6 +1,9 @@
 import "./ProductSelection.css"
 import React, {useEffect, useState} from "react";
 import {MayButton} from "../../UL/MayButton/MayButton";
+import {useDispatch, useSelector} from "react-redux";
+import {rootState} from "../../../redux/reducers/rootReduser";
+import {cardActions} from "../../../redux/actions/cardAcrion";
 
 
 interface ProductSelectionInterfase {
@@ -14,26 +17,30 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                                                           setPercentageDiscount,
 
                                                                       }) => {
-        const [size, setSize] = useState(product.prod[0].size)
 
+        const state = useSelector((state: rootState) => {
+            return state.product.size
+        })
+
+        const dispatch = useDispatch() // відправляти
+
+        const [size, setSize] = useState(product.prod[0].size)
         const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
-            console.log(size)
+            dispatch(cardActions(size))
         }
+
         const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {
             setSize(e.currentTarget.value)
         }
 
         const [filterPrise, setFilterPrise] = useState([])
-
         useEffect(() => {
             let filter = product.prod.filter((bla: any) => bla.size === size)
             let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
             setPercentageDiscount(Math.trunc(prise))
             setFilterPrise(filter)
         }, [size])
-
-
         return (
             <>
                 <div>

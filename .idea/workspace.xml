@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add bloks productTabsfs1">
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="corect bags">
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/type/cardTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,7 @@
       <workItem from="1650281996966" duration="24387000" />
       <workItem from="1650527113622" duration="31616000" />
       <workItem from="1650721523939" duration="615000" />
-      <workItem from="1650871795277" duration="37331000" />
+      <workItem from="1650871795277" duration="48726000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -223,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651058571122</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="corect bags">
+      <created>1651059010431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1651059010431</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +266,8 @@
     <MESSAGE value="add ProductCharacter" />
     <MESSAGE value="add bloks productTabs" />
     <MESSAGE value="add bloks productTabsfs1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bloks productTabsfs1" />
+    <MESSAGE value="corect bags" />
+    <option name="LAST_COMMIT_MESSAGE" value="corect bags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,7 +292,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx</url>
-          <line>16</line>
+          <line>17</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>

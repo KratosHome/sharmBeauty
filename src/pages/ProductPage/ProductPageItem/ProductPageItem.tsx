@@ -4,13 +4,14 @@ import {useState} from "react";
 import {ProductImg} from "../ProductImg/ProductImg";
 import {ProductСharacteristics} from "../ProductСharacteristics/ProductСharacteristics";
 import {ProductTabs} from "../ProductTabs/ProductTabs";
+import {useDispatch, useSelector} from "react-redux";
+import {rootState} from "../../../redux/reducers/rootReduser";
 
 interface ProductPage {
     item?: any;
 }
 
 export const ProductPageItem: React.FC<ProductPage> = ({item}) => {
-
     const [percentageDiscount, setPercentageDiscount] = useState()
     return (
         <div className="row1 row2">
