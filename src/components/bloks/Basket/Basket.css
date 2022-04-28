@@ -1,0 +1,17 @@
+.addProudctInCard {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #f10e5d;
+    border-radius: 50%;
+    top: -14px;
+    left: 12px;
+}
+@media (max-width: 928px) {
+    .addProudctInCard {
+        width: 20px;
+        height: 20px;
+        top: -24px;
+        left: 25px;
+    }
+}

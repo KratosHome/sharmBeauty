@@ -1,5 +1,5 @@
 import "./ProductSelection.css"
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {MayButton} from "../../UL/MayButton/MayButton";
 import {useDispatch, useSelector} from "react-redux";
 import {rootState} from "../../../redux/reducers/rootReduser";
@@ -19,19 +19,26 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                                                       }) => {
 
         const state = useSelector((state: rootState) => {
-            return state.product.size
+            return state
         })
+
 
         const dispatch = useDispatch() // відправляти
 
         const [size, setSize] = useState(product.prod[0].size)
+        const ref = useRef()
+
+        const [id, setId] = useState(product.prod[0].id)
+
         const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
             dispatch(cardActions(size))
         }
 
+
         const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {
             setSize(e.currentTarget.value)
+            setId(e.currentTarget.id)
         }
 
         const [filterPrise, setFilterPrise] = useState([])
@@ -53,6 +60,11 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                 {product.prod.length >= 6
                     ?
                     <form onSubmit={handleSubmit}>
+                        <div>
+                            {product.prod.map((item: any) => (
+                                id === item.id ? <div key={item.id}>{item.id}</div> : null
+                            ))}
+                        </div>
                         <label className="ProductSizeContainer2">
                             <select value={size} onChange={handleClick}>
                                 {product.prod.map((item: any) => (
@@ -62,15 +74,22 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                 ))
                                 }
                             </select>
+                            <div>bla</div>
                             <MayButton>ДО КОШИКУ</MayButton>
                         </label>
                     </form>
                     :
                     <form onSubmit={handleSubmit}>
+                        <div>
+                            {product.prod.map((item: any) => (
+                                id === item.id ? <div key={item.id}>{item.id}</div> : null
+                            ))}
+                        </div>
                         <div className="ProductSizeContainer">
                             {product.prod.map((item: any) => (
                                 <input
                                     key={item.id}
+                                    id={item.id}
                                     className={item.size === size ? "ProductSize ProductSizechosen" : "ProductSize"}
                                     onClick={handleClick}
                                     type="button"

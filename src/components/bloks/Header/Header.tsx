@@ -5,8 +5,6 @@ import {RequestСall} from "../RequestСall/RequestСall";
 import "animate.css";
 import {Link, NavLink} from "react-router-dom";
 import {Thema} from "../Thema/Thema";
-import {useTypeSelector} from "../../../hooks/useTypeSelector";
-import {useTheme} from "../../../hooks/useTheme";
 import {UserAccount} from "../UserAccount/UserAccount";
 import {Likes} from "../Likes/Likes";
 import {Search} from "../Search/Search";
@@ -16,10 +14,9 @@ import {Menu} from "./Munu/Menu";
 import {useState} from 'react';
 
 
-
-
 export const Header: React.FC = () => {
     const [modalOpen, setModalOpen] = useState<boolean>(false);
+
     return (
         <header>
             <div className="containderHead">
@@ -56,7 +53,6 @@ export const Header: React.FC = () => {
                     </div>
                 </div>
                 <div className="rigt-block">
-
                     <Thema/>
                     <UserAccount/>
                     <Likes/>
