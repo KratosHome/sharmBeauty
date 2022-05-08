@@ -1,25 +1,42 @@
 import "./ProductImg.css"
-import {useState} from "react";
+// Import Swiper React components
+import {Swiper, SwiperSlide} from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
+
+// import required modules
+import {EffectCube, Pagination} from "swiper";
 
 interface ProductImgType {
-    img: string[]
+    img: any
 }
 
 export const ProductImg: React.FC<ProductImgType> = ({img}) => {
-    const [imgCheng, setImgCheng] = useState(img[0]);
+
     return (
-        <div className="productImgTest">
-            <img src={imgCheng} className="ProductImgFirst" alt="img change"/>
-            {img.map((img, index) => (
-                <img
-                    className="ProductImgAther"
-                    style={{border: imgCheng === img ? "1px solid #2dbbf0" : ""}}
-                    key={index}
-                    src={img}
-                    alt={img}
-                    onClick={() => setImgCheng(img)}
-                />
-            ))}
-        </div>
+        <>
+            <Swiper
+                effect={"cube"}
+                grabCursor={true}
+                cubeEffect={{
+                    shadow: true,
+                    slideShadows: true,
+                    shadowOffset: 5,
+                    shadowScale: 0.74,
+                }}
+                pagination={true}
+                modules={[EffectCube, Pagination]}
+                className="mySwiper"
+            >
+                {img.map((item: any) => (
+                    <SwiperSlide key={item}>
+                        <img src={item}/>
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </>
     );
 };

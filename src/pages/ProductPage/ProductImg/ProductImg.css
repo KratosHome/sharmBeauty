@@ -1,16 +1,15 @@
-.ProductImgFirst {
-    max-width: 100%;
-}
-.ProductImgAther {
-    max-width: 24%;
-    margin: 2px;
-    transition: 1s; /* Время эффекта */
-    overflow: hidden;
-    display: inline-block;
+
+.swiper {
+    width: 300px;
+    height: 300px;
 }
 
-.ProductImgAther:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    border: 1px solid #2dbbf0;
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
 }

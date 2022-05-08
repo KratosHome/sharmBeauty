@@ -9,3 +9,7 @@ export default class MenuServer{
         return response.data
     }
 }
+
+const bla ={
+
+}

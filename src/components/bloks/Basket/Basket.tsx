@@ -7,15 +7,15 @@ import {rootState} from "../../../redux/reducers/rootReduser";
 export const Basket: React.SFC<{}> = () => {
 
     const state = useSelector((state: rootState) => {
-        return state.product.id
+        return state.product
     })
-    console.log()
+
 
     return (
         <div>
             <Link to="/card">
                 <img className="UserAccountImg cardImg" src={BasketImg} alt="порівняння товару"/>
-                {state.length > 1 ? (
+                {state ? (
                     <div className="addProudctInCard"></div>
                 ) : null}
             </Link>

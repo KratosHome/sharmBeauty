@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add shengest product id">
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add product id in redax">
+      <change afterPath="$PROJECT_DIR$/src/hooks/useGetProduct.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ProductAdd/ProductAdd.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ProductNone/ProductNone.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/MenuServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MenuServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/type/cardTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/type/cardTypes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +53,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.27" />
@@ -117,7 +132,16 @@
       <workItem from="1650281996966" duration="24387000" />
       <workItem from="1650527113622" duration="31616000" />
       <workItem from="1650721523939" duration="615000" />
-      <workItem from="1650871795277" duration="56152000" />
+      <workItem from="1650871795277" duration="92508000" />
+      <workItem from="1651567787601" duration="2820000" />
+      <workItem from="1651574759096" duration="1271000" />
+      <workItem from="1651578085525" duration="5802000" />
+      <workItem from="1651599928388" duration="17498000" />
+      <workItem from="1651724485379" duration="9011000" />
+      <workItem from="1651822192700" duration="8678000" />
+      <workItem from="1651831719296" duration="4714000" />
+      <workItem from="1651988661765" duration="41000" />
+      <workItem from="1652018516278" duration="4080000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -245,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651143179580</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add product id in redax">
+      <created>1651144167062</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651144167062</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +312,8 @@
     <MESSAGE value="corect bags" />
     <MESSAGE value="add state and dispatch in productPage" />
     <MESSAGE value="add shengest product id" />
-    <option name="LAST_COMMIT_MESSAGE" value="add shengest product id" />
+    <MESSAGE value="add product id in redax" />
+    <option name="LAST_COMMIT_MESSAGE" value="add product id in redax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,50 +321,47 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/router/router.tsx</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
+          <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx</url>
-          <line>17</line>
-          <properties lambdaOrdinal="-1" />
+          <line>16</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductСharacteristics/ProductСharacteristics.tsx</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductTabs/ProdcutDescription/ProdcutDescription.tsx</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductTabs/TabsCharacteristic/TabsCharacteristic.tsx</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
           <line>14</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

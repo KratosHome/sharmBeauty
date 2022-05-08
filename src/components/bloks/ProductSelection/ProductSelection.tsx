@@ -1,9 +1,9 @@
 import "./ProductSelection.css"
-import React, {useEffect, useRef, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {MayButton} from "../../UL/MayButton/MayButton";
 import {useDispatch, useSelector} from "react-redux";
+import {addInCard, cardActions} from "../../../redux/actions/cardAcrion";
 import {rootState} from "../../../redux/reducers/rootReduser";
-import {cardActions} from "../../../redux/actions/cardAcrion";
 
 
 interface ProductSelectionInterfase {
@@ -19,52 +19,85 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                                                       }) => {
 
 
-
-        const dispatch = useDispatch() // відправляти
         const [size, setSize] = useState(product.prod[0].size)
         const [id, setId] = useState(product.prod[0].id)
 
-        const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-            e.preventDefault();
-            dispatch(cardActions(id))
-        }
+        const [filterSize, setFilterSize] = useState([])
+        const [getProduct, setGetProduct] = useState<any>(1)
+        useEffect(() => {
+            let filter = product.prod.filter((bla: any) => bla.size === size)
+            let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
+            setPercentageDiscount(Math.trunc(prise))
+            setFilterSize(filter)
+            filter.map((e: any) => setGetProduct(e))
+        }, [size])
+
+
+        const [filterId, setFilterId] = useState([])
+        useEffect(() => {
+            let filter = product.prod.filter((bla: any) => bla.id === id)
+            setFilterId(filter)
+        }, [id])
 
 
         const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {
             setSize(e.currentTarget.value)
             setId(e.currentTarget.id)
+
         }
 
-        const [filterPrise, setFilterPrise] = useState([])
-        useEffect(() => {
-            let filter = product.prod.filter((bla: any) => bla.size === size)
-            let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
-            setPercentageDiscount(Math.trunc(prise))
-            setFilterPrise(filter)
-        }, [size])
+        const handleClick1 = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {
+            setSize(e.currentTarget.value)
+            console.log((e.target as any))
+        }
+
+        const dispatch = useDispatch()
+        const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+            e.preventDefault();
+            dispatch(cardActions(product))
+            dispatch(addInCard(id))
+        }
+
+        const style = {
+            position: 'absolute',
+            marginTop: '100px',
+        };
+
+        const state = useSelector((state: rootState) => {
+            return state.product.addToCard
+        })
+
+        console.log(state.some((id: any) => id === state.id))
+
+        const [addToCar, setAddToCard] = useState(false)
+
+
         return (
             <>
                 <div>
-                    {filterPrise.map((item: any) => (
+                    {filterSize.map((item: any) => (
                         <div key={item.id} className="prise">
                             <del>{item.prise} грн.</del>
                             <div className="newPrise">{item.newPrise} грн.</div>
                         </div>))}
+                    {filterId.map((item: any) => (
+                        <div key={item.id}>
+                            {item.id}
+                        </div>
+                    ))}
                 </div>
                 {product.prod.length >= 6
                     ?
                     <form onSubmit={handleSubmit}>
-                        <div>
-                            {product.prod.map((item: any) => (
-                                id === item.id ? <div key={item.id}>{item.id}</div> : null
-                            ))}
-                        </div>
                         <label className="ProductSizeContainer2">
-                            <select value={size} onChange={handleClick}>
+                            <select onChange={handleClick1}>
                                 {product.prod.map((item: any) => (
-                                    <option value={item.size} className="ProductSize" key={item.id}>
-                                        {item.size} мл.
-                                    </option>
+                                    <option
+                                        value={item.size}
+                                        className="ProductSize"
+                                        key={item.id}
+                                        id={item.id}
+                                    >{item.size}</option>
                                 ))
                                 }
                             </select>
@@ -73,25 +106,24 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                     </form>
                     :
                     <form onSubmit={handleSubmit}>
-                        <div>
-                            {product.prod.map((item: any) => (
-                                id === item.id ? <div key={item.id}>{item.id}</div> : null
-                            ))}
-                        </div>
                         <div className="ProductSizeContainer">
                             {product.prod.map((item: any) => (
                                 <input
-                                    key={item.id}
                                     id={item.id}
                                     className={item.size === size ? "ProductSize ProductSizechosen" : "ProductSize"}
                                     onClick={handleClick}
                                     type="button"
                                     name={"lable"}
+                                    key={item.id}
                                     value={item.size}
                                 />
                             ))}
+                            <MayButton
+                                style={style}
+                                onClick={() => setAddToCard(true)}>
+                                ДО КОШИКУ
+                            </MayButton>
                         </div>
-                        <MayButton>ДО КОШИКУ</MayButton>
                     </form>
                 }
 

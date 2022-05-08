@@ -11,7 +11,13 @@ interface ProductType {
     product: any,
 }
 
-// Todo: -Likes, -comparison
+// Todo: -Likes
+// Todo: -Loader
+// Todo: -filrwe
+// Todo: -Lengeage
+// Todo: -Менеше кода для прієма с API
+// Todo: -Redux Thunk https://www.digitalocean.com/community/tutorials/redux-redux-thunk-ru
+
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
 
 
