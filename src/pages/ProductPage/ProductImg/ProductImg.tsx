@@ -17,7 +17,7 @@ interface ProductImgType {
 export const ProductImg: React.FC<ProductImgType> = ({img}) => {
 
     return (
-        <>
+        <div className="productImg">
             <Swiper
                 effect={"cube"}
                 grabCursor={true}
@@ -37,6 +37,6 @@ export const ProductImg: React.FC<ProductImgType> = ({img}) => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </>
+        </div>
     );
 };

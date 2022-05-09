@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add product id in redax">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useGetProduct.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ProductAdd/ProductAdd.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ProductNone/ProductNone.tsx" afterDir="false" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add prduct img swiper cube">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/MenuServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MenuServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UL/MayBanner/MayBanner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayBanner/MayBanner.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cardAcrion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cardReduser.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/type/cardTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/type/cardTypes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +134,8 @@
       <workItem from="1651822192700" duration="8678000" />
       <workItem from="1651831719296" duration="4714000" />
       <workItem from="1651988661765" duration="41000" />
-      <workItem from="1652018516278" duration="4080000" />
+      <workItem from="1652018516278" duration="4296000" />
+      <workItem from="1652073050871" duration="6324000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -276,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651144167062</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add prduct img swiper cube">
+      <created>1652022914825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652022914825</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +314,8 @@
     <MESSAGE value="add state and dispatch in productPage" />
     <MESSAGE value="add shengest product id" />
     <MESSAGE value="add product id in redax" />
-    <option name="LAST_COMMIT_MESSAGE" value="add product id in redax" />
+    <MESSAGE value="add prduct img swiper cube" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prduct img swiper cube" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,12 +5,13 @@ type Props = {
     props?: any,
     disabled?: any
     style?: any
+    TruFolse?: any,
 }
 
-export const MayButton: React.SFC<Props> = ({children, onClick, ...props}) => {
+export const MayButton: React.SFC<Props> = ({children,TruFolse, onClick, style, ...props}) => {
     return (
-        <button {...props} className="may_btn" onClick={onClick}>
+        <button {...props} className={TruFolse ? "may_btn may_btn2" : "may_btn"} onClick={onClick}>
             <span>{children}</span>
-        </button>
-    );
-};
+            </button>
+            );
+        };

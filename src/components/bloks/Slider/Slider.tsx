@@ -40,7 +40,7 @@ export const Slider: React.FC<{}> = () => {
         <div className="swiper-container">
             <Swiper
                 slidesPerView={counInstagramSlider()}
-                spaceBetween={30}
+                spaceBetween={50}
                 slidesPerGroup={1}
                 autoplay={{
                     delay: 2000,
@@ -53,11 +53,10 @@ export const Slider: React.FC<{}> = () => {
                 }}
                 navigation={true}
                 modules={[Pagination, Navigation, Autoplay]}
-                className="mySwiper"
-
+                className="mySwiper1"
             >
                 {getProduct.map(prod => (
-                    <SwiperSlide key={prod.name}>
+                    <SwiperSlide key={prod.name} >
                         <ProductList key={prod.name} product={prod}/>
                     </SwiperSlide>
                 ))}

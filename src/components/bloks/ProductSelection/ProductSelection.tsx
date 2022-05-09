@@ -58,18 +58,9 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
             dispatch(addInCard(id))
         }
 
-        const style = {
-            position: 'absolute',
-            marginTop: '100px',
-        };
-
         const state = useSelector((state: rootState) => {
             return state.product.addToCard
         })
-
-        console.log(state.some((id: any) => id === state.id))
-
-        const [addToCar, setAddToCard] = useState(false)
 
 
         return (
@@ -108,22 +99,29 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                     <form onSubmit={handleSubmit}>
                         <div className="ProductSizeContainer">
                             {product.prod.map((item: any) => (
-                                <input
-                                    id={item.id}
-                                    className={item.size === size ? "ProductSize ProductSizechosen" : "ProductSize"}
-                                    onClick={handleClick}
-                                    type="button"
-                                    name={"lable"}
-                                    key={item.id}
-                                    value={item.size}
-                                />
+                                <div key={item.id}>
+                                    <input
+                                        id={item.id}
+                                        className={item.size === size ? "ProductSize ProductSizechosen" : "ProductSize"}
+                                        onClick={handleClick}
+                                        type="button"
+                                        name={"lable"}
+                                        key={item.id}
+                                        value={item.size}
+                                    />
+                                </div>
                             ))}
-                            <MayButton
-                                style={style}
-                                onClick={() => setAddToCard(true)}>
-                                ДО КОШИКУ
-                            </MayButton>
                         </div>
+                        {
+                            state.some((item: any) => item === id)
+                                ? <MayButton disabled TruFolse={true}>
+                                    У КОШИКУ
+                                </MayButton>
+                                : <MayButton>
+                                    ДО КОШИКУ"
+                                </MayButton>
+                        }
+
                     </form>
                 }
 

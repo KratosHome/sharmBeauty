@@ -13,7 +13,6 @@ interface AddToCard {
 interface ProductInCard {
     type: AddToCardActionsTypes.PRODUCT_IN_CARD;
     id: any
-
 }
 
 interface ChangeQuantity {
