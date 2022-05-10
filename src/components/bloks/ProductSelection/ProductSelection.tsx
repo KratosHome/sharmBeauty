@@ -118,7 +118,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                     У КОШИКУ
                                 </MayButton>
                                 : <MayButton>
-                                    ДО КОШИКУ"
+                                    ДО КОШИКУ
                                 </MayButton>
                         }
 

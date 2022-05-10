@@ -1,8 +1,11 @@
 import "./ProductsCatalog.css";
-import {useState, useEffect} from "react";
-import ProductServer from "../../API/ProductServer";
+import {useEffect} from "react";
+import ProductServer, {ProductSetverNew} from "../../API/ProductServer";
 import {ProductList} from "../../components/bloks/ProductList/ProductList";
 import {Loader} from "../../components/bloks/Loader/Loader";
+import {useDispatch, useSelector} from "react-redux";
+import {rootState} from "../../redux/reducers/rootReduser";
+import {getProductAction} from "../../redux/actions/getProdut";
 
 
 interface ProductPage {
@@ -21,16 +24,16 @@ interface ProductPage {
 }
 
 export const ProductsCatalog: React.SFC<{}> = () => {
-    const [getProduct, setGetProduct] = useState<ProductPage[]>([]);
 
-    async function fetchProducts() {
-        const getProduct = await ProductServer.ProductPage();
-        setGetProduct(getProduct);
-    }
+    const state = useSelector((state: rootState) => {
+        return state.getProduct.products
+    })
+    const dispatch = useDispatch()
 
     useEffect(() => {
-        fetchProducts();
+        getProductAction()(dispatch)
     }, []);
+
 
     return (
         <>
@@ -47,9 +50,9 @@ export const ProductsCatalog: React.SFC<{}> = () => {
             <div className="productContainer row1 row2">
                 <div className="filter">filter</div>
                 <div className="ProductsCatalogProducts">
-                    {getProduct.map.length ? (
+                    {state.map.length ? (
                             <>
-                                {getProduct.map(prod => (
+                                {state.map((prod: any) => (
                                     <ProductList key={prod.name} product={prod}/>))}
                             </>
                         )

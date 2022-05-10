@@ -10,6 +10,3 @@ export default class MenuServer{
     }
 }
 
-const bla ={
-
-}
