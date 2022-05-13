@@ -1,13 +1,13 @@
-import  {useContext} from "react";
-
-import {PersonalAccount} from "../PersonalAccount/PersonalAccount";
 import "./UserAccount.css";
-import {LoginContext} from "../../context/index";
+import  {useContext} from "react";
 import {UserAccountLogin} from "../UserAccountLogin/UserAccountLogin";
+import {PersonalAccount} from "../PersonalAccount/PersonalAccount";
+import {LoginContext} from "../../context/index";
+
 
 export const UserAccount = () => {
     const {isAuth} = useContext(LoginContext);
-
+    console.log(LoginContext)
     return (
         <>
             {
