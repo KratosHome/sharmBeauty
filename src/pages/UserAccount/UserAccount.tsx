@@ -1,5 +1,5 @@
 import "./UserAccount.css";
-import  {useContext} from "react";
+import {useContext} from "react";
 import {UserAccountLogin} from "../UserAccountLogin/UserAccountLogin";
 import {PersonalAccount} from "../PersonalAccount/PersonalAccount";
 import {LoginContext} from "../../context/index";
