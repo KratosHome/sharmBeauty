@@ -27,14 +27,14 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
             let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
             setPercentageDiscount(Math.trunc(prise))
             setFilterSize(filter)
-        }, [size, product.prod])
+        }, [size, product.prod, setPercentageDiscount])
 
 
         const [filterId, setFilterId] = useState([])
         useEffect(() => {
             let filter = product.prod.filter((bla: prodTypes) => bla.id === id)
             setFilterId(filter)
-        }, [id])
+        }, [id, product.prod])
 
 
         const handleClick = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement> | React.MouseEvent<HTMLInputElement>) => {

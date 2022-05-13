@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add redux thunk loading &#10;corected types">
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="for netlifay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/ForTestServer/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/ForTestServer/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/MenuServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MenuServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UL/MayBanner/MayBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayBanner/MayBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Slider/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Thema/Thema.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Thema/Thema.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PersonalAccount/PersonalAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PersonalAccount/PersonalAccount.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserAccountLogin/UserAccountLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserAccountLogin/UserAccountLogin.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
       <workItem from="1652073050871" duration="22772000" />
       <workItem from="1652158255529" duration="6279000" />
       <workItem from="1652170429207" duration="2997000" />
-      <workItem from="1652257191271" duration="26479000" />
+      <workItem from="1652257191271" duration="27155000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -312,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652441386936</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="for netlifay">
+      <created>1652442466093</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652442466093</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +351,8 @@
     <MESSAGE value="add disable btn, new card redux" />
     <MESSAGE value="add redux thunk product catalog" />
     <MESSAGE value="add redux thunk loading &#10;corected types" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux thunk loading &#10;corected types" />
+    <MESSAGE value="for netlifay" />
+    <option name="LAST_COMMIT_MESSAGE" value="for netlifay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,7 +369,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPageItem/ProductPageItem.tsx</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

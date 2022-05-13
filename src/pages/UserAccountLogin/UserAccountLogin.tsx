@@ -59,7 +59,7 @@ export const UserAccountLogin: React.SFC<{}> = () => {
         {errors?.pass && <div>{errors.pass.message}</div>}
         <div>Запам'ятай мене</div>
           <MayButton>Увійти</MayButton>
-        <a>Забули пароль?</a>
+        <a href="forget/pass">Забули пароль?</a>
       </form>
       <div>
         <div>
