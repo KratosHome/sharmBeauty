@@ -1,8 +1,8 @@
 import "./UserAccount.css";
 import {useContext} from "react";
 import {UserAccountLogin} from "../UserAccountLogin/UserAccountLogin";
+import {LoginContext} from "../../context";
 import {PersonalAccount} from "../PersonalAccount/PersonalAccount";
-import {LoginContext} from "../../context/index";
 
 
 export const UserAccount = () => {
