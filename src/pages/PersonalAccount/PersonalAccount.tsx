@@ -1,6 +1,6 @@
 import { MayButton } from "../../components/UL/MayButton/MayButton";
 import "./PersonalAccount.css";
-import { LoginContext } from '../../context/index';
+import { LoginContext } from '../../context/LoginContext';
 import { useContext } from "react";
 
 export const PersonalAccount: React.SFC<{}> = () => {

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { MayButton } from "../../components/UL/MayButton/MayButton";
-import { LoginContext } from "../../context/index";
+import { LoginContext } from "../../context/LoginContext";
 
 interface FormValues {
   email: string;

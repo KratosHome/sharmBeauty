@@ -1,6 +1,6 @@
 import {Route, Routes} from "react-router";
 import {ProviderRouter} from "./router";
-import {LoginContext} from "../context/index";
+import {LoginContext} from "../context/LoginContext";
 import {useContext} from "react";
 import {PersonalAccount} from "../pages/PersonalAccount/PersonalAccount";
 

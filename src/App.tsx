@@ -4,7 +4,7 @@ import { Footer } from "./components/bloks/Footer/Footer";
 import { Header } from "./components/bloks/Header/Header";
 import { AppRouter } from "./router/AppRouter";
 import { BrowserRouter } from "react-router-dom";
-import { LoginContext } from "./context";
+import { LoginContext } from "./context/LoginContext";
 
 
 const App: React.FC = () => {

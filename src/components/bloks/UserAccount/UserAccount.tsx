@@ -1,7 +1,7 @@
 import "./UserAccount.css";
 import userEnter from "../../../img/icons/enter.png";
 import { Link } from "react-router-dom";
-import { LoginContext } from '../../../context/index';
+import { LoginContext } from '../../../context/LoginContext';
 
 export const UserAccount: React.FC<{}> = () => {
 
