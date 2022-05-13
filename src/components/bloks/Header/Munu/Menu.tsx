@@ -5,7 +5,7 @@ import React, {useEffect, useState} from "react";
 import {NavLink} from "react-router-dom";
 import MenuServer from "../../../../API/MenuServer";
 
-interface Menu {
+interface MenuType {
     id: number;
     name: string;
     CubMenu: any[];
@@ -15,7 +15,7 @@ interface Menu {
 
 export const Menu = () => {
     const [menuActive, setMenuActiv] = useState(false);
-    const [getMenu, setGetMenu] = useState<Menu[]>([]);
+    const [getMenu, setGetMenu] = useState<MenuType[]>([]);
 
     async function fetchMenu() {
         const getMenu = await MenuServer.MenPage();

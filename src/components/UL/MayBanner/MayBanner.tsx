@@ -14,11 +14,11 @@ import { MayButton } from "../MayButton/MayButton";
 import { Link } from "react-router-dom";
 
 const image = [
-  { url: img5, path: "/product" },
-  { url: img4, path: "" },
-  { url: img2, path: "/product" },
-  { url: img, path: "/product" },
-  { url: img1, path: "/product" },
+  { url: img5, path: "/product", alt: "product" },
+  { url: img4, path: "", alt: "product" },
+  { url: img2, path: "/product", alt: "product" },
+  { url: img, path: "/product", alt: "product" },
+  { url: img1, path: "/product", alt: "product" },
 ];
 
 export const MayBanner: React.SFC<{}> = () => {
@@ -51,7 +51,7 @@ export const MayBanner: React.SFC<{}> = () => {
                 </Link>
               </div>
             ) : null}
-            <img src={im.url} />
+            <img src={im.url} alt={im.alt} />
           </SwiperSlide>
         ))}
       </Swiper>

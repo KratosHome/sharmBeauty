@@ -1,9 +1,5 @@
 import {AddToCardActionsTypes, carActionType} from "../type/cardTypes";
 
-interface CardStateType {
-    id: any
-}
-
 const initialState: any = {
     product: [],
     addToCard: [],

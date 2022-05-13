@@ -1,7 +1,7 @@
 import "./Slider.css";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {FreeMode, Pagination, Autoplay, Navigation} from "swiper";
-import {useEffect, useLayoutEffect, useState} from "react";
+import { Pagination, Autoplay, Navigation} from "swiper";
+import {useEffect, useState} from "react";
 import ProductServer from "../../../API/ProductServer";
 import {ProductList} from "../ProductList/ProductList";
 import {useWindowSize} from "../../../hooks/useWindowSize";
@@ -18,7 +18,7 @@ export const Slider: React.FC<{}> = () => {
     }, []);
 
 
-    const [width, height] = useWindowSize();
+    const [width] = useWindowSize();
     let responsive
     function counInstagramSlider() {
         responsive = 5

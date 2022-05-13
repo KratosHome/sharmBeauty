@@ -14,6 +14,7 @@ export const ProductPageItem: React.FC<ProductPage> = ({item}) => {
     const [percentageDiscount, setPercentageDiscount] = useState()
     return (
         <div className="row1 row2">
+            <div>{percentageDiscount}</div>
             <div className="ProductPageContainer">
                 <ProductImg img={item.cart_img}/>
                 <ProductСharacteristics item={item}/>

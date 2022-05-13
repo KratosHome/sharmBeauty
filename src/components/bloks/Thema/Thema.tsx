@@ -21,7 +21,7 @@ export const Thema: React.FC<{}> = () => {
         } else {
             setBulem(false);
         }
-    }, [theme]);
+    }, [theme, bulem]);
 
     return (
         <>

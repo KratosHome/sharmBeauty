@@ -27,7 +27,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
             let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
             setPercentageDiscount(Math.trunc(prise))
             setFilterSize(filter)
-        }, [size])
+        }, [size, product.prod])
 
 
         const [filterId, setFilterId] = useState([])
@@ -58,7 +58,6 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
         const state = useSelector((state: rootState) => {
             return state.product.addToCard
         })
-
 
         return (
             <>

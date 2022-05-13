@@ -15,7 +15,7 @@ const ProductPage = () => {
     const dispatch = useDispatch()
     useEffect(() => {
         getProductAction()(dispatch)
-    }, []);
+    }, [dispatch]);
 
     const pageId = useParams();
     const getProductInProduct = products.filter(

@@ -5,7 +5,7 @@ import "./UserAccount.css";
 import { LoginContext } from "../../context/index";
 import { UserAccountLogin } from "../UserAccountLogin/UserAccountLogin";
 
-export const UserAccount: React.SFC<{}> = () => {
+export const UserAccount = () => {
   const { isAuth } = React.useContext(LoginContext);
 
   return <>{isAuth ? <PersonalAccount /> : <UserAccountLogin />}</>;

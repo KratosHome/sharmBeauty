@@ -14,7 +14,7 @@ export const ProductsCatalog = () => {
     const dispatch = useDispatch()
     useEffect(() => {
         getProductAction()(dispatch)
-    }, []);
+    }, [dispatch]);
 
     return (
         <>

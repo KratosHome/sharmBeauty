@@ -1,6 +1,5 @@
 import { useContext } from "react";
-import { useForm, Resolver, SubmitHandler } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
 import { MayButton } from "../../components/UL/MayButton/MayButton";
 import { LoginContext } from "../../context/index";
 
@@ -23,7 +22,7 @@ export const UserAccountLogin: React.SFC<{}> = () => {
   });
 
   const { isAuth, setIsAuth } = useContext(LoginContext);
-
+  console.log(isAuth)
   const loginIn = () => {
     setIsAuth(true);
     localStorage.setItem("auth", "true");

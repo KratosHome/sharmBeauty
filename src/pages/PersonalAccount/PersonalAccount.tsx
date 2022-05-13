@@ -4,7 +4,7 @@ import { LoginContext } from '../../context/index';
 import { useContext } from "react";
 
 export const PersonalAccount: React.SFC<{}> = () => {
-  const { isAuth, setIsAuth } = useContext(LoginContext);
+  const {  setIsAuth } = useContext(LoginContext);
 
   const logOut = () => {
     setIsAuth(false);
