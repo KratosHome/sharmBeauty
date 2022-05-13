@@ -6,7 +6,7 @@ import {getProductReduser} from "./getProdcutReduser";
 
 export const rootReducer = combineReducers({
     test: animateReducer,
-    product: cardReduser,
+    product: cardReduser ,
     getProduct: getProductReduser
 })
 

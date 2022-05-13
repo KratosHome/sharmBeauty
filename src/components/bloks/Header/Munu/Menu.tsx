@@ -1,9 +1,8 @@
 import "./Menu.css";
 import logo from "../../../../img/icons/logo.png";
 import close from "../../../../img/icons/slose.png";
-import sub_menu from "../../../../img/icons/menu.png";
-import {useEffect, useState} from "react";
-import {Link, NavLink} from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import {NavLink} from "react-router-dom";
 import MenuServer from "../../../../API/MenuServer";
 
 interface Menu {
@@ -14,9 +13,8 @@ interface Menu {
     block: number;
 }
 
-export const Menu: React.SFC<{}> = () => {
+export const Menu = () => {
     const [menuActive, setMenuActiv] = useState(false);
-    const [menuAcriveLink, setMenuActiveLink] = useState(false)
     const [getMenu, setGetMenu] = useState<Menu[]>([]);
 
     async function fetchMenu() {
@@ -78,7 +76,7 @@ export const Menu: React.SFC<{}> = () => {
                                         ))}
                                     </ul>
                                 ) : (
-                                    false
+                                    null
                                 )}
                             </li>
                         </ul>

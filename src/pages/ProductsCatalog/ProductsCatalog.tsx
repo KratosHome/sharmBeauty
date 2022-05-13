@@ -1,39 +1,20 @@
 import "./ProductsCatalog.css";
 import {useEffect} from "react";
-import ProductServer, {ProductSetverNew} from "../../API/ProductServer";
 import {ProductList} from "../../components/bloks/ProductList/ProductList";
 import {Loader} from "../../components/bloks/Loader/Loader";
-import {useDispatch, useSelector} from "react-redux";
-import {rootState} from "../../redux/reducers/rootReduser";
+import {useDispatch} from "react-redux";
 import {getProductAction} from "../../redux/actions/getProdut";
+import {productTypes} from "../../types/productTypes";
+import {useTypeSelector} from "../../hooks/useTupeSelecrot";
 
+export const ProductsCatalog = () => {
+    const {loading, products} = useTypeSelector(
+        (state) => state.getProduct);
 
-interface ProductPage {
-    brend: string,
-    name: string,
-    id: number,
-    prise: number,
-    newPrise: number,
-    size: number,
-    count: number,
-    grade: number,
-    categories: any[],
-    countri: string,
-    female: string,
-    img: string
-}
-
-export const ProductsCatalog: React.SFC<{}> = () => {
-
-    const state = useSelector((state: rootState) => {
-        return state.getProduct.products
-    })
     const dispatch = useDispatch()
-
     useEffect(() => {
         getProductAction()(dispatch)
     }, []);
-
 
     return (
         <>
@@ -50,16 +31,9 @@ export const ProductsCatalog: React.SFC<{}> = () => {
             <div className="productContainer row1 row2">
                 <div className="filter">filter</div>
                 <div className="ProductsCatalogProducts">
-                    {state.map.length ? (
-                            <>
-                                {state.map((prod: any) => (
-                                    <ProductList key={prod.name} product={prod}/>))}
-                            </>
-                        )
-                        :
-                        <Loader/>
-                    }
-
+                    {loading ? <Loader/> : null}
+                    {products.map((prod: productTypes) => (
+                        <ProductList key={prod.name} product={prod}/>))}
                 </div>
             </div>
         </>

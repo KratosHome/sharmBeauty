@@ -4,12 +4,12 @@ import {MayButton} from "../../UL/MayButton/MayButton";
 import {useDispatch, useSelector} from "react-redux";
 import {addInCard, cardActions} from "../../../redux/actions/cardAcrion";
 import {rootState} from "../../../redux/reducers/rootReduser";
+import {prodTypes} from "../../../types/productTypes";
 
 
 interface ProductSelectionInterfase {
     product: any
     setPercentageDiscount: any
-
 }
 
 export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
@@ -17,25 +17,22 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                                                           setPercentageDiscount,
 
                                                                       }) => {
-
-
         const [size, setSize] = useState(product.prod[0].size)
         const [id, setId] = useState(product.prod[0].id)
 
         const [filterSize, setFilterSize] = useState([])
-        const [getProduct, setGetProduct] = useState<any>(1)
+
         useEffect(() => {
-            let filter = product.prod.filter((bla: any) => bla.size === size)
+            let filter = product.prod.filter((bla: prodTypes) => bla.size === size)
             let prise = filter.map((e: any) => ((e.prise - e.newPrise) / e.prise) * 100)
             setPercentageDiscount(Math.trunc(prise))
             setFilterSize(filter)
-            filter.map((e: any) => setGetProduct(e))
         }, [size])
 
 
         const [filterId, setFilterId] = useState([])
         useEffect(() => {
-            let filter = product.prod.filter((bla: any) => bla.id === id)
+            let filter = product.prod.filter((bla: prodTypes) => bla.id === id)
             setFilterId(filter)
         }, [id])
 
@@ -66,12 +63,12 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
         return (
             <>
                 <div>
-                    {filterSize.map((item: any) => (
+                    {filterSize.map((item: prodTypes) => (
                         <div key={item.id} className="prise">
                             <del>{item.prise} грн.</del>
                             <div className="newPrise">{item.newPrise} грн.</div>
                         </div>))}
-                    {filterId.map((item: any) => (
+                    {filterId.map((item: prodTypes) => (
                         <div key={item.id}>
                             {item.id}
                         </div>
@@ -82,7 +79,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                     <form onSubmit={handleSubmit}>
                         <label className="ProductSizeContainer2">
                             <select onChange={handleClick1}>
-                                {product.prod.map((item: any) => (
+                                {product.prod.map((item: prodTypes) => (
                                     <option
                                         value={item.size}
                                         className="ProductSize"
@@ -98,7 +95,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                     :
                     <form onSubmit={handleSubmit}>
                         <div className="ProductSizeContainer">
-                            {product.prod.map((item: any) => (
+                            {product.prod.map((item: prodTypes) => (
                                 <div key={item.id}>
                                     <input
                                         id={item.id}
@@ -113,7 +110,7 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                             ))}
                         </div>
                         {
-                            state.some((item: any) => item === id)
+                            state.some((item: prodTypes) => item === id)
                                 ? <MayButton disabled TruFolse={true}>
                                     У КОШИКУ
                                 </MayButton>
@@ -121,7 +118,6 @@ export const ProductSelection: React.FC<ProductSelectionInterfase> = ({
                                     ДО КОШИКУ
                                 </MayButton>
                         }
-
                     </form>
                 }
 

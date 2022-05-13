@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import comparisonImg from "../../../img/icons/comparison.png"
 
-export const Comparison: React.SFC<{}> = () => {
+export const Comparison = () => {
   return (
     <div>
       <Link to="/products">

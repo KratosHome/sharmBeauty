@@ -1,42 +1,33 @@
 import "./ProductPage.css"
 import {useParams} from "react-router";
-import {useEffect, useState} from "react";
-import ProductServer from "../../API/ProductServer";
+import {useEffect} from "react";
 import {ProductPageItem} from "./ProductPageItem/ProductPageItem";
 import {Loader} from "../../components/bloks/Loader/Loader";
+import {productTypes} from "../../types/productTypes";
+import {useDispatch} from "react-redux";
+import {getProductAction} from "../../redux/actions/getProdut";
+import {useTypeSelector} from "../../hooks/useTupeSelecrot";
 
 const ProductPage = () => {
-    const [getProduct, setGetProduct] = useState<any[]>([]);
+    const {loading, products} = useTypeSelector(
+        (state) => state.getProduct);
 
+    const dispatch = useDispatch()
     useEffect(() => {
-        fetchProducts();
+        getProductAction()(dispatch)
     }, []);
 
-    async function fetchProducts() {
-        const getProduct = await ProductServer.ProductPage();
-        setGetProduct(getProduct);
-    }
-
     const pageId = useParams();
-    const getProductInProduct = getProduct.filter(
-        (word) => word.link === pageId.id
+    const getProductInProduct = products.filter(
+        (word: productTypes) => word.link === pageId.id
     );
-
 
     return (
         <div>
-            {getProduct.length ? (
-                    <>
-                        {getProductInProduct.map(item => (
-                            <ProductPageItem key={item.name} item={item}/>
-                        ))}
-                    </>
-                )
-                :
-                (
-                    <Loader/>
-                )
-            }
+            {loading ? <Loader/> : null}
+            {getProductInProduct.map((item: productTypes) => (
+                <ProductPageItem key={item.name} item={item}/>
+            ))}
         </div>
     )
 }

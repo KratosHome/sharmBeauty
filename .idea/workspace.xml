@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add disable btn, new card redux">
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/getProdut.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/type/getProductType.ts" afterDir="false" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add redux thunk loading &#10;corected types">
+      <change afterPath="$PROJECT_DIR$/src/hooks/useTupeSelecrot.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/productTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/MenuServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MenuServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/ProductServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/ProductServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Comparison/Comparison.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Comparison/Comparison.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Likes/Likes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Likes/Likes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Bllock1/BlockMain1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Bllock1/BlockMain1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/createStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/createStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/getProdut.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/getProdut.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/type/getProductType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/type/getProductType.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -136,7 +147,9 @@
       <workItem from="1651988661765" duration="41000" />
       <workItem from="1652018516278" duration="4296000" />
       <workItem from="1652073050871" duration="22772000" />
-      <workItem from="1652158255529" duration="3677000" />
+      <workItem from="1652158255529" duration="6279000" />
+      <workItem from="1652170429207" duration="2997000" />
+      <workItem from="1652257191271" duration="25256000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -285,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652084791600</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add redux thunk product catalog">
+      <created>1652164091783</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652164091783</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +344,9 @@
     <MESSAGE value="add product id in redax" />
     <MESSAGE value="add prduct img swiper cube" />
     <MESSAGE value="add disable btn, new card redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="add disable btn, new card redux" />
+    <MESSAGE value="add redux thunk product catalog" />
+    <MESSAGE value="add redux thunk loading &#10;corected types" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux thunk loading &#10;corected types" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -333,11 +355,6 @@
           <url>file://$PROJECT_DIR$/src/router/router.tsx</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductPage/ProductImg/ProductImg.tsx</url>
@@ -365,41 +382,20 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
-          <line>14</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
-          <line>28</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
-          <line>109</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx</url>
-          <line>3</line>
+          <line>2</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/actions/getProdut.ts</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
-          <line>56</line>
+          <line>24</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts</url>
-          <line>8</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

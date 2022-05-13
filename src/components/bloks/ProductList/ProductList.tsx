@@ -12,22 +12,21 @@ interface ProductType {
 }
 
 // Todo: -Likes
+// Todo: -HOX
 // Todo: -Loader
 // Todo: -filrwe
 // Todo: -Lengeage
-// Todo: -Менеше кода для прієма с API
-// Todo: -Redux Thunk https://www.digitalocean.com/community/tutorials/redux-redux-thunk-ru
+// Todo: -react captcha
+// Todo: -Ru Inglish
+
 
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {
-
-
     // sale
     const [percentageDiscount, setPercentageDiscount] = useState(1)
     useEffect(() => {
         let sale = ((product.prod[0].prise - product.prod[0].newPrise) / product.prod[0].prise * 100)
         setPercentageDiscount(Math.trunc(sale))
     }, [product])
-
 
     return (
         <div className="ProductListContainer row1 row2 ">

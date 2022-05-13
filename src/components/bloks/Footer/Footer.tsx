@@ -6,38 +6,35 @@ import delivery from "../../../img/icons/delivery.png"
 import logo from "../../../img/icons/logo.png"
 import facebook_icon from "../../../img/icons/facebook_icon.png"
 import instagram_icon from "../../../img/icons/instagram_icon.png"
-import visa_icon from "../../../img/icons/visa_icon.png"
-import maestro from "../../../img/icons/maestro.png"
-import privat24 from "../../../img/icons/privat24.png"
 
-export const Footer: React.FC<{}> = () => {
+export const Footer = () => {
     return (
         <footer>
             <div className="footerIcons">
                 <div>
-                    <img src={delivery}/>
+                    <img alt="delivery" src={delivery}/>
                     <span>Доставка
                         по всій Україні
                     </span>
                 </div>
                 <div>
-                    <img src={guarantee_certificate}/>
+                    <img alt="guarantee_certificate"  src={guarantee_certificate}/>
                     <span>
                         Гарантія
                     </span>
                 </div>
                 <div>
-                    <img src={give_money}/>
+                    <img alt="give_money"  src={give_money}/>
                     <span> Готівковий та безготівковий розрахунок</span>
                 </div>
                 <div>
-                    <img src={support}/>
+                    <img alt="support" src={support}/>
                     <span>Безкоштовний дзвінок 0 (800) 50 51 13</span>
                 </div>
             </div>
             <div className="footerContent">
                 <div>
-                    <img src={logo}/>
+                    <img alt="logo" src={logo}/>
                 </div>
                 <div>
                     <div>БРЕНДИ</div>
@@ -79,8 +76,8 @@ export const Footer: React.FC<{}> = () => {
             </div>
             <div className="footerIcons2">
                 <div>
-                    <img src={facebook_icon}/>
-                    <img src={instagram_icon}/>
+                    <img alt="facebook_icon" src={facebook_icon}/>
+                    <img alt="instagram_icon" src={instagram_icon}/>
                 </div>
                 <div>2019-2020. Інтернет-магазин парфумерії ШАРМ Beauty ©</div>
             </div>

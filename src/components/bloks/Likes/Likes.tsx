@@ -2,7 +2,7 @@ import "./likes.css";
 import like from "../../../img/icons/like.png";
 import { Link } from "react-router-dom";
 
-export const Likes: React.SFC<{}> = () => {
+export const Likes = () => {
   return (
     <div>
       <Link to="/likes">
