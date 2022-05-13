@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add redux thunk loading &#10;corected types">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTupeSelecrot.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/productTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Comparison/Comparison.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Comparison/Comparison.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Header/Munu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/Likes/Likes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Likes/Likes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Bllock1/BlockMain1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Bllock1/BlockMain1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductsCatalog/ProductsCatalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/getProdut.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/getProdut.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/getProdcutReduser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/type/getProductType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/type/getProductType.ts" afterDir="false" />
-    </list>
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add redux thunk loading &#10;corected types" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +128,7 @@
       <workItem from="1652073050871" duration="22772000" />
       <workItem from="1652158255529" duration="6279000" />
       <workItem from="1652170429207" duration="2997000" />
-      <workItem from="1652257191271" duration="25256000" />
+      <workItem from="1652257191271" duration="25559000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -305,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652164091783</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add redux thunk loading &#10;corected types">
+      <created>1652441347654</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652441347654</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
