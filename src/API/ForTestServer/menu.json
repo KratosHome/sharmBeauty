@@ -7,205 +7,205 @@
              {
             "id": 1,
             "name": "Новинки",
-            "path": "/new",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 2,
             "name": "Sets",
-            "path": "/sets",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 3,
             "name": "Мініатюри",
-            "path": "/miniatures",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 4,
             "name": "Парфумована вода",
-            "path": "/perfumed_water",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 5,
             "name": "Туалетна вода",
-            "path": "/eau_de_toilette",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 6,
             "name": "Одеколон",
-            "path": "/Cologne",
+            "path": "/parfumeriya",
             "block": 1
         },
         {
             "id": 7,
             "name": "Нішева парфумерія",
-            "path": "/niche_perfumes",
+            "path": "/parfumeriya",
             "block": 2
         },
         {
             "id": 8,
             "name": "Елітна парфумерія",
-            "path": "/elitna_parfumeriya",
+            "path": "/parfumeriya",
             "block": 2
         },
         {
             "id": 9,
             "name": "Атомайзери",
-            "path": "/atomizers",
+            "path": "/parfumeriya",
             "block": 2
         },
         {
             "id": 10,
             "name": "Атомайзери",
-            "path": "/atomizers",
+            "path": "/parfumeriya",
             "block": 2
         },
         {
             "id": 11,
             "name": "Масляні парфуми",
-            "path": "/oil_perfumes",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 12,
             "name": "Масляні парфуми",
-            "path": "/oil_perfumes",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 13,
             "name": "Жіноча парфумерія",
-            "path": "/womens_perfumes",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 14,
             "name": "Чоловіча парфумерія",
-            "path": "/mens_perfume",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 15,
             "name": "Парфумерія унісекс",
-            "path": "/unisex_perfumes",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 16,
             "name": "Дитяча парфумерія",
-            "path": "/childrens_perfumes",
+            "path": "/parfumeriya",
             "block": 3
         },
         {
             "id": 17,
             "name": "Аромати для дому",
-            "path": "/fragrances_for_the_home",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 18,
             "name": "Аромалампи",
-            "path": "/aroma_lamps",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 19,
             "name": "Ароматизатори",
-            "path": "/flavors",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 20,
             "name": "Ароматичні палички",
-            "path": "/incense_sticks",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 21,
             "name": "Ароматичні свічки",
-            "path": "/scented_candles",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 22,
             "name": "Парфумовані свічки",
-            "path": "/perfumed_candles",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 23,
             "name": "Аромадіфузори",
-            "path": "/aroma_diffusers",
+            "path": "/parfumeriya",
             "block": 4
         },
         {
             "id": 24,
             "name": "РОЗПРОДАЖ",
-            "path": "/sale",
+            "path": "/parfumeriya",
             "block": 5
         }]
     },
     {
         "id": 2,
         "name": "Макіяж",
-        "path": "/makiyazh",
+        "path": "/parfumeriya",
         "CubMenu": [
             {
                 "id": 1,
                 "name": "Очі",
-                "path": "/eyes",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 2,
                 "name": "Брові",
-                "path": "/brows",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 3,
                 "name": "Губи",
-                "path": "/lips",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 4,
                 "name": "Обличчя",
-                "path": "/Face",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 5,
                 "name": "Щітки",
-                "path": "/brushes",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 6,
                 "name": "Макіяж",
-                "path": "/makeup",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 7,
                 "name": "Нігті",
-                "path": "/nails",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 8,
                 "name": "Палетки",
-                "path": "/palettes",
+                "path": "/parfumeriya",
                 "block": 5
             },
             {
                 "id": 9,
                 "name": "Палетки",
-                "path": "/palettes",
+                "path": "/parfumeriya",
                 "block": 5
             }
         ]
@@ -213,25 +213,25 @@
     {
         "id": 3,
         "name": "Волосся",
-        "path": "/hair",
+        "path": "/makiyazh",
         "CubMenu": []
     },
     {
         "id": 4,
         "name": "Обличчя",
-        "path": "/oblychchya",
+        "path": "/makiyazh",
         "CubMenu": []
     },
     {
         "id": 5,
         "name": "Тіло і ванна",
-        "path": "/tilo_i_vanna",
+        "path": "/makiyazh",
         "CubMenu": []
     },
     {
         "id": 6,
         "name": "Чоловікам",
-        "path": "/cholovikam",
+        "path": "/makiyazh",
         "CubMenu": []
     },
     {

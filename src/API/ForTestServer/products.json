@@ -1,6 +1,5 @@
 [
   {
-    "alt": "",
     "brend": "Etro",
     "name": "Etro Pegaso",
     "nameDiscription": "Туалетная вода",
@@ -61,6 +60,12 @@
       "/img/product/givenchy_ange_ou_demon_le_secret.jpg",
       "/img/product/olfactive_studio_lumiere_blanche.jpg",
       "/img/product/dior_sauvage_.jpg"
+    ],
+    "alt": [
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette"
     ],
     "link": "Etro_Pegaso_30"
   },
@@ -162,7 +167,18 @@
     "final_note": "бальзамическая нота, кедр, лабданум",
     "description": "Косметика от мастеров французского бренда L'Oreal Paris имеет более чем вековую историю и началась с создания безопасной краски для волос. На сегодняшний день ассортимент товаров настолько широк, что каждый может найти подходящее именно ему уходовое средство, и при этом быть уверенным в высоком качестве и надежности продукции. По такому же принципу создавалась ночная сыворотка с ретинолом для кожи лица.",
     "img": "/img/product/givenchy_ange_ou_demon_le_secret.jpg",
-    "cart_img": [],
+    "cart_img": [
+      "/img/product/etro_pegaso_eau_de_toilette.jpg",
+      "/img/product/givenchy_ange_ou_demon_le_secret.jpg",
+      "/img/product/olfactive_studio_lumiere_blanche.jpg",
+      "/img/product/dior_sauvage_.jpg"
+    ],
+    "alt": [
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette"
+    ],
     "link": "Givenchy_Ange_Ou_Demon_Le_Secret_50"
   },
   {
@@ -213,6 +229,12 @@
       "/img/product/olfactive_studio_lumiere_blanche.jpg",
       "/img/product/dior_sauvage_.jpg"
     ],
+    "alt": [
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette"
+    ],
     "link": "Olfactive_Studio_Lumiere_Blanche_50"
   },
   {
@@ -257,7 +279,18 @@
     "final_note": "бальзамическая нота, кедр, лабданум",
     "description": "Косметика от мастеров французского бренда L'Oreal Paris имеет более чем вековую историю и началась с создания безопасной краски для волос. На сегодняшний день ассортимент товаров настолько широк, что каждый может найти подходящее именно ему уходовое средство, и при этом быть уверенным в высоком качестве и надежности продукции. По такому же принципу создавалась ночная сыворотка с ретинолом для кожи лица.",
     "img": "/img/product/dior_sauvage_.jpg",
-    "cart_img": [],
+    "cart_img": [
+      "/img/product/etro_pegaso_eau_de_toilette.jpg",
+      "/img/product/givenchy_ange_ou_demon_le_secret.jpg",
+      "/img/product/olfactive_studio_lumiere_blanche.jpg",
+      "/img/product/dior_sauvage_.jpg"
+    ],
+    "alt": [
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette",
+      "etro_pegaso_eau_de_toilette"
+    ],
     "link": "Dior_Sauvage_50"
   }
 ]

@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="for netlifay">
-      <change beforePath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/30_-frui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/_1_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/bref_ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/parfum_ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/ru-henkel_02_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/ru-podarunkovi_nabory_02_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/sarma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sale/shik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/ForTestServer/sale.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/SaleServer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block3/Block3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block3/Block3.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/30_-frui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/_1_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/bref_ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/parfum_ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/ru-henkel_02_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/ru-podarunkovi_nabory_02_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/sarma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sale/shik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePagesItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePages.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/SaleAcrion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/GerSaleReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/type/saleTupes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/saleTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/ForTestServer/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/ForTestServer/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/ForTestServer/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/ForTestServer/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/MenuServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/MenuServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/Basket/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block2/BlockMain2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/rootReduser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +80,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.14.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.27" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/API/ForTestServer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +89,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/API/ForTestServer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/SalePages/SalePageItems" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.index.tsx">
     <configuration default="true" type="NodeJSConfigurationType" singleton="false">
@@ -130,7 +175,8 @@
       <workItem from="1652073050871" duration="22772000" />
       <workItem from="1652158255529" duration="6279000" />
       <workItem from="1652170429207" duration="2997000" />
-      <workItem from="1652257191271" duration="28620000" />
+      <workItem from="1652257191271" duration="29887000" />
+      <workItem from="1652594115806" duration="16105000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -356,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652444184705</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="for netlifay">
+      <created>1652444736912</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1652444736913</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,21 +492,19 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/redux/actions/getProdut.ts</url>
-          <line>6</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
           <line>24</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/bloks/ProductSelection/ProductSelection.tsx</url>
           <line>51</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx</url>
+          <line>1</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
