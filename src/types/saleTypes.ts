@@ -6,4 +6,5 @@ export interface saleTypes {
     data: string
     imgSale: string
     product: productType[]
+    timer: any
 }

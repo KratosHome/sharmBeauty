@@ -2,7 +2,12 @@
   {
     "id": 1,
     "title": "ДО -50% НА СРЕДСТВА ДЛЯ СТИРКИ",
-    "data": "С 01.02.22 ПО 28.02.22",
+    "data": "С 01.02.22 ПО 5.20.23",
+    "timer": {
+      "month": 5,
+      "day": 20,
+      "year": 2023
+    },
     "imgSale": "/img/sale/_1_5.jpg",
     "product": [
       {
@@ -304,7 +309,12 @@
   {
     "id": 2,
     "title": "ДО -30% НА ПОДАРОЧНЫЕ НАБОРЫ",
-    "data": "С 01.02.22 ПО 28.02.22",
+    "data": "С 01.02.22 ПО 20.05.24",
+    "timer": {
+      "month": 5,
+      "day": 20,
+      "year": 2024
+    },
     "imgSale": "/img/sale/30_-frui.jpg",
     "product": [
       {
@@ -606,7 +616,12 @@
   {
     "id": 3,
     "title": "ДО -20% НА СРЕДСТВА ТМ SARMA",
-    "data": "С 01.09.21 ПО 30.09.21",
+    "data": "С 01.09.21 ПО 15.05.22",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2022
+    },
     "imgSale": "/img/sale/bref_ru.jpg",
     "product": [
       {
@@ -908,7 +923,12 @@
   {
     "id": 4,
     "title": "ДО -20% НА СРЕДСТВА ТМ BREF BRILLIANT GEL",
-    "data": "С 01.09.21 ПО 30.09.21",
+    "data": "С 01.09.21 ПО 30.09.23",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2023
+    },
     "imgSale": "/img/sale/saleparfum_ru.jpg",
     "product": [
       {
@@ -1211,6 +1231,11 @@
     "id": 5,
     "title": "ДО -30% НА ЖЕНСКУЮ И МУЖСКУЮ ПАРФЮМЕРИЮ",
     "data": "С 13.09.21 ПО 17.10.21",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2022
+    },
     "imgSale": "/img/sale/ru-henkel_02_22.jpg",
     "product": [
       {
@@ -1513,6 +1538,11 @@
     "id": 6,
     "title": "ДО -20% НА ШАМПУНИ И ГЕЛИ ДЛЯ ДУША ТМ SHIK",
     "data": "С 01.09.21 ПО 30.09.21",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2022
+    },
     "imgSale": "/img/sale/ru-podarunkovi_nabory_02_22.jpg",
     "product": [
       {
@@ -1815,6 +1845,11 @@
     "id": 7,
     "title": "ДО -30% НА КОСМЕТИКУ ТМ FRUI",
     "data": "С 01.08.21 ПО 15.08.21",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2022
+    },
     "imgSale": "/img/sale/sarma.jpg",
     "product": [
       {
@@ -2117,6 +2152,11 @@
     "id": 8,
     "title": "ДО -30% НА КРЕМЫ ДЛЯ ЛИЦА",
     "data": "С 01.03.21 ПО 31.03.21",
+    "timer": {
+      "month": 5,
+      "day": 15,
+      "year": 2022
+    },
     "imgSale": "/img/sale/shik.jpg,",
     "product": [
       {

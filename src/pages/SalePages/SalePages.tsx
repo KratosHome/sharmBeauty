@@ -3,9 +3,9 @@ import {useTypeSelector} from "../../hooks/useTupeSelecrot";
 import {useDispatch} from "react-redux";
 import {useEffect} from "react";
 import {getSaleAction} from '../../redux/actions/SaleAcrion';
-import {useParams} from "react-router";
 import {Loader} from "../../components/bloks/Loader/Loader";
 import {saleTypes} from "../../types/saleTypes";
+import {SalePageImtem} from "./SalePageItems/SalePagesItems";
 
 export const SalePages = () => {
 
@@ -26,12 +26,12 @@ export const SalePages = () => {
             <div className="SalePagesContainder">
                 {loading ? <Loader/> : null}
                 {sale.map((item: saleTypes) => (
-                    <div key={item.id} className='salePageConteiner'>
-                        <h2>{item.title}</h2>
-                        <div>
-                            <img className='saleImg' src={item.imgSale} alt={item.title}/>
-                        </div>
-                    </div>
+                    <SalePageImtem
+                        key={item.id}
+                        title={item.title}
+                        imgSale={item.imgSale}
+                        tamerSale={item.timer}
+                    />
                 ))}
             </div>
         </div>
