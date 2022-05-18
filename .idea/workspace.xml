@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add sale page">
-      <change afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePItem/SalePItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePItem/SalePItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block3/Block3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/bloksMain/Block3/Block3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserAccount/UserAccount.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +141,7 @@
       <workItem from="1652170429207" duration="2997000" />
       <workItem from="1652257191271" duration="29887000" />
       <workItem from="1652594115806" duration="16882000" />
-      <workItem from="1652780884548" duration="13738000" />
+      <workItem from="1652780884548" duration="14044000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -403,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652890643723</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add sale page">
+      <created>1652892222389</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892222389</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add sale page">
+      <created>1652892450142</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892450142</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
