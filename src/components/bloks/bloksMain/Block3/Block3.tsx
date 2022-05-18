@@ -6,7 +6,7 @@ const Block3 = () => {
         <div className="collage-cloth">
             <div className="cloth-in">
                 <span className="single-tit">Акции месяца</span>
-                <a className="button" href="">
+                <a className="button" href="/bla">
                     <span>Подробнее</span>
                 </a>
             </div>

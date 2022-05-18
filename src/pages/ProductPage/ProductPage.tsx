@@ -22,6 +22,7 @@ const ProductPage = () => {
         (word: productTypes) => word.link === pageId.id
     );
 
+    console.log(getProductInProduct)
     return (
         <div>
             {loading ? <Loader/> : null}

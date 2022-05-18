@@ -4,8 +4,9 @@ import {useEffect} from "react";
 import {getSaleAction} from "../../redux/actions/SaleAcrion";
 import {useParams} from "react-router";
 import {saleTypes} from "../../types/saleTypes";
-
-
+import {Loader} from "../../components/bloks/Loader/Loader";
+import {SalePItem} from "./SalePItem/SalePItem";
+import "./SalePage.css"
 
 export const SalePage = () => {
     const {loading, sale} = useTypeSelector(
@@ -18,14 +19,23 @@ export const SalePage = () => {
 
     const pageId = useParams();
     const getSale = sale.filter(
-        (word: saleTypes) => word.id === pageId.id
+        (word: saleTypes) => word.id == pageId.id
     );
 
-    console.log(sale)
+    console.log(getSale)
 
     return (
-        <>
-            text
-        </>
+        <div className="SalePageCont">
+            {loading ? <Loader/> : null}
+            {getSale.map((item: any) => (
+                <SalePItem
+                    key={item.id}
+                    id={item.id}
+                    title={item.title}
+                    imgSale={item.imgSale}
+                    tamerSale={item.timer}
+                />
+            ))}
+        </div>
     )
 };
