@@ -28,6 +28,7 @@ export const SalePages = () => {
                 {sale.map((item: saleTypes) => (
                     <SalePageImtem
                         key={item.id}
+                        id={item.id}
                         title={item.title}
                         imgSale={item.imgSale}
                         tamerSale={item.timer}

@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add sale reduser &#10;add sales page">
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTimer.ts" afterDir="false" />
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add sale timer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/ForTestServer/sale.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/ForTestServer/sale.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/SaleServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/SaleServer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePagesItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePagesItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePages.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/saleTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/saleTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +144,7 @@
       <workItem from="1652170429207" duration="2997000" />
       <workItem from="1652257191271" duration="29887000" />
       <workItem from="1652594115806" duration="16882000" />
-      <workItem from="1652780884548" duration="6978000" />
+      <workItem from="1652780884548" duration="12190000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -388,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652779061301</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add sale timer">
+      <created>1652795606870</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1652795606870</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +434,8 @@
     <MESSAGE value="add redux thunk loading &#10;corected types" />
     <MESSAGE value="for netlifay" />
     <MESSAGE value="add sale reduser &#10;add sales page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sale reduser &#10;add sales page" />
+    <MESSAGE value="add sale timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sale timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

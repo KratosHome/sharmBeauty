@@ -8,6 +8,7 @@ import ProductPage from "../pages/ProductPage/ProductPage";
 import {NotFound} from "../pages/NotFound/NotFound";
 import {CardPage} from "../pages/CardPage/CardPage";
 import {SalePages} from "../pages/SalePages/SalePages";
+import {SalePage} from "../pages/SalePage/SalePage";
 
 export const ProviderRouter: any[] = [
     {path: "/", component: <Main/>,},
@@ -15,6 +16,7 @@ export const ProviderRouter: any[] = [
     {path: "/login", component: <UserAccount/>},
     {path: "/likes", component: <LikesPage/>},
     {path: "/promotions", component: <SalePages/>},
+    {path: "promotions/:id/", component: <SalePage/>},
     {path: "product/:id/", component: <ProductPage/>},
     {path: "/*", component: <NotFound/>},
     {path: "/makiyazh/", component: <ProductsCatalog/>},
