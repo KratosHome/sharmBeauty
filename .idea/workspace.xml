@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add sale page">
-      <change beforePath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePages/SalePageItems/SalePageItems.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,7 @@
       <workItem from="1652170429207" duration="2997000" />
       <workItem from="1652257191271" duration="29887000" />
       <workItem from="1652594115806" duration="16882000" />
-      <workItem from="1652780884548" duration="14044000" />
+      <workItem from="1652780884548" duration="14347000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -409,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652892450142</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add sale page">
+      <created>1652892647991</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892647991</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
