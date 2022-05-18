@@ -18,8 +18,9 @@ export const SalePage = () => {
     }, [dispatch]);
 
     const pageId = useParams();
+    let bla = Number(pageId.id)
     const getSale = sale.filter(
-        (word: saleTypes) => word.id == pageId.id
+        (word: saleTypes) => word.id === bla
     );
 
     console.log(getSale)
