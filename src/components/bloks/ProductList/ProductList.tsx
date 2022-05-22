@@ -11,13 +11,6 @@ interface ProductType {
     product: any,
 }
 
-// Todo: -Likes
-// Todo: -HOX
-// Todo: -Loader
-// Todo: -filrwe
-// Todo: -Lengeage
-// Todo: -react captcha
-// Todo: -Ru Inglish
 
 
 export const ProductList: React.FC<ProductType> = ({product}: ProductType) => {

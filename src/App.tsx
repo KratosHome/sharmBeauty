@@ -32,3 +32,12 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+
+// Todo: -Likes
+// Todo: -HOX
+// Todo: -filrwe
+// Todo: -Lengeage
+// Todo: -react captcha
+// Todo: -Ru Inglish
+// Todo: -useHook from заказать дзиінок
