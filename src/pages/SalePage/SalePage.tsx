@@ -24,7 +24,6 @@ export const SalePage = () => {
     );
 
 
-
     return (
         <div className="SalePageCont">
             {loading ? <Loader/> : null}

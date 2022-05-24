@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="add sale page">
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="open in nettlifay">
+      <change afterPath="$PROJECT_DIR$/src/components/UL/MayInput/MayInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UL/MayInput/mayInput.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bloks/ProductList/ProductList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayButton/MayButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/ProductNone/ProductNone.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SalePage/SalePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserAccountLogin/UserAccountLogin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserAccountLogin/UserAccountLogin.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +150,8 @@
       <workItem from="1652170429207" duration="2997000" />
       <workItem from="1652257191271" duration="29887000" />
       <workItem from="1652594115806" duration="16882000" />
-      <workItem from="1652780884548" duration="21187000" />
+      <workItem from="1652780884548" duration="21360000" />
+      <workItem from="1653217158439" duration="14265000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -433,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652892934342</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="open in nettlifay">
+      <created>1653214929996</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1653214929996</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add Reting Product, verstca product catalog" />
     <MESSAGE value="add ProductSeletion" />
     <MESSAGE value="add selectde product size" />
     <MESSAGE value="add filter prise" />
@@ -477,7 +490,8 @@
     <MESSAGE value="add sale reduser &#10;add sales page" />
     <MESSAGE value="add sale timer" />
     <MESSAGE value="add sale page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sale page" />
+    <MESSAGE value="open in nettlifay" />
+    <option name="LAST_COMMIT_MESSAGE" value="open in nettlifay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
