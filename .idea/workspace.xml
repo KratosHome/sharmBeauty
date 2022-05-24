@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="git add MauInout">
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ContactDetails/ContactDetails.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ContactDetails/ContactDetails.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CardPage/ProductInCard/ProductInCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UL/MayInput/MayInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayInput/MayInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UL/MayInput/mayInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UL/MayInput/mayInput.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CardPage/CardPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CardPage/ProductAdd/ProductAdd.tsx" beforeDir="false" />
-    </list>
+    <list default="true" id="409e1ac1-4e67-4230-b0a3-8ac82551bbb9" name="Changes" comment="corrected bag MayInout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +140,7 @@
       <workItem from="1652257191271" duration="29887000" />
       <workItem from="1652594115806" duration="16882000" />
       <workItem from="1652780884548" duration="21360000" />
-      <workItem from="1653217158439" duration="20168000" />
+      <workItem from="1653217158439" duration="20701000" />
     </task>
     <task id="LOCAL-00001" summary="commit webstorm test">
       <created>1650132490749</created>
@@ -453,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653374027296</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="corrected bag MayInout">
+      <created>1653390488156</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1653390488156</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +469,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add selectde product size" />
     <MESSAGE value="add filter prise" />
     <MESSAGE value="add sale prodcut catalog" />
     <MESSAGE value="add sale prodcut present" />
@@ -497,7 +493,8 @@
     <MESSAGE value="add sale page" />
     <MESSAGE value="open in nettlifay" />
     <MESSAGE value="git add MauInout" />
-    <option name="LAST_COMMIT_MESSAGE" value="git add MauInout" />
+    <MESSAGE value="corrected bag MayInout" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected bag MayInout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
