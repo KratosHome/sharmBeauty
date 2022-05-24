@@ -1,8 +1,8 @@
 import "./CardPage.css"
-import {useTypeSelector} from "../../hooks/useTupeSelecrot";
-import {MayInput} from "../../components/UL/MayInput/MayInput";
 import {MayButton} from "../../components/UL/MayButton/MayButton";
 import {useForm} from "react-hook-form";
+import {ContactDetails} from "./ContactDetails/ContactDetails";
+import {ProductInCard} from "./ProductInCard/ProductInCard";
 
 interface FormValues {
     email: string;
@@ -20,48 +20,24 @@ export const CardPage = () => {
         reset,
     } = useForm<FormValues>({mode: "onBlur"});
 
-    const emailBla = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
     const onSubmit = handleSubmit((data) => {
         console.log(data);
         reset();
     });
 
-    const {product} = useTypeSelector(
-        (state) => state.product);
 
     return (
-        <div className="cardContainer">
+        <form className="cardContainer" onSubmit={onSubmit}>
             <div>
-                <h1>Оформлення замовлення</h1>
+                <h1>1 Оформлення замовлення</h1>
                 <section className="carСlientInfo">
                     <h2>Ваші контактні дані</h2>
-                    <form onSubmit={onSubmit}>
-                        <MayInput
-                            label={"surname"}
-                            labelText={"Фамілія"}
-                            type={"text"}
-                            register={register}
-                            required={"Введіть Фамілію"}
-                            patternValue={emailBla}
-                            patternMessage={"Введіть правельну фамілію"}
-                            errors={errors}
-                        />
-                        <MayButton>fdsv</MayButton>
-                        <label htmlFor="surname">Фамілія</label>
-                        <input id="surname" type="text"/>
-                        <label htmlFor="name">Ім'я</label>
-                        <input id="name" type="text"/>
-                    </form>
-                    <div>
-                        <label htmlFor="mobile">Мобільний телефон</label>
-                        <input id="mobile" type="text"/>
-                        <label htmlFor="email">Електронна пошта</label>
-                        <input id="email" type="text"/>
-                    </div>
+                    <ContactDetails register={register} errors={errors}/>
                 </section>
                 <section>
                     <h3>Ваше Замовлення</h3>
+                    <ProductInCard/>
                 </section>
             </div>
             <div>
@@ -71,6 +47,6 @@ export const CardPage = () => {
                 <div>До спалти</div>
                 <MayButton>Заказ підтвержую</MayButton>
             </div>
-        </div>
+        </form>
     )
 };

@@ -11,6 +11,7 @@ interface inputeProps {
     patternValue: any
     patternMessage: string
     errors: any
+    mustBeCompleted?: boolean
 }
 
 export const MayInput: React.FC<inputeProps> = ({
@@ -21,21 +22,17 @@ export const MayInput: React.FC<inputeProps> = ({
                                                     required,
                                                     patternValue,
                                                     patternMessage,
-                                                    errors
+                                                    errors,
+                                                    mustBeCompleted
                                                 }) => {
-
-    const [getError, setGetError] = useState<any>()
-
-    useEffect(() => {
-        for (const [key, value] of Object.entries(errors)) {
-            setGetError(value)
-        }
-    }, [errors])
-
-    console.log(getError)
     return (
         <div className="mayInputContainer">
-            <label htmlFor={label}>{labelText}</label>
+            <label
+                htmlFor={label}
+            >
+                {labelText}
+                {mustBeCompleted ? <span>*</span> : null}
+            </label>
             <input
                 id={label}
                 type={type}
@@ -47,7 +44,7 @@ export const MayInput: React.FC<inputeProps> = ({
                     },
                 })}
             />
-            {getError && <div>{getError.message}</div>}
+            {errors?.[label]?.message && <div>{errors?.[label]?.message}</div>}
         </div>
     );
 };

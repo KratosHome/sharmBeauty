@@ -1,28 +1,5 @@
-.cardContainer{
+.cardContainer {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.carСlientInfo{
-    display: flex;
-    flex-direction: column;
 
-}
-
-.carСlientInfo label{
-    position: absolute;
-    margin: -10px 0 0 15px;
-    background-color: white;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.carСlientInfo input{
-    border: 1px solid rgba(44, 19, 19, 0.5);
-    border-radius: 5px;
-    width: 150px;
-    height: 20px;
-}
-
-.carСlientInfo label:hover{
-    cursor: pointer;
-}
