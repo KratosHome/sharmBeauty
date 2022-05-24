@@ -1,0 +1,9 @@
+.ProductInCardContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.ProductInCardImg{
+    width: 100px;
+    height: 100px;
+}
