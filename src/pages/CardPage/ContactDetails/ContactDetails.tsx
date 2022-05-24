@@ -10,7 +10,7 @@ export const ContactDetails: React.FC<ContactDetails> = ({register, errors}) => 
 
     const nameRegularExpressions = /^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$/u
     const emailRegularExpressions = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    const numberRegularExpressions = /^([+]?[0-9\s-\)]{3,25})*$/i;
+    const numberRegularExpressions = /^([+]?[0-9\s-]{3,25})*$/i;
 
     return (
         <div className="CardPageInput">
